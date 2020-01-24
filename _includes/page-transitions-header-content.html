@@ -1,0 +1,28 @@
+
+<script>
+$(window).on("load", function() {
+    $(".falls-away-on-nav-away").removeClass("fallen-away")
+    $(".fades-out-on-nav-away").removeClass("faded-out")
+
+    // All links to other pages should make the content go away and then navigate
+    $(".content-animates-with-navigation :link, .content-animates-with-navigation  :visited")
+        .filter((_, element) => {
+            // Match any link to another page (not a fragment link) in this site
+            return element.host == window.location.host
+                && (element.pathname.match(/^\/[^\/]+\/?$/)
+                    || element.pathname == "/")
+                && (element.hash == ""
+                    && !element.href.endsWith("#"))
+        })
+        .click(event => {
+            window.localStorage["org.bh.should-rise-back-on-load"] = true
+            $(".falls-away-on-nav-away").addClass("fallen-away").removeClass("risen-up")
+            $(".fades-out-on-nav-away").addClass("faded-out")
+            $(":root").removeClass("sidebar-shown")
+            setTimeout(_ => {
+                window.location = event.target.href || $(event.target).parents("[href]")[0].href
+            }, 400)
+            return false
+        })
+})
+</script>

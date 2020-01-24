@@ -1,0 +1,14 @@
+<ul>
+{% if site.external-links.github        %}    <li><a href="https://github.com/{{ site.external-links.github }}" class="button image-button"><i class="fab fa-github"></i> <span>GitHub</span></a></li>{% endif %}
+{% if site.external-links.patreon       %}    <li><a href="https://patreon.com/{{ site.external-links.patreon }}" class="button image-button"><i class="fab fa-patreon"></i> <span>Patreon</span></a></li>{% endif %}
+{% if site.external-links.ko-fi         %}    <li><a href="https://ko-fi.com/{{ site.external-links.ko-fi }}" class="button image-button"><i class="fas fa-2x fa-mug-hot ko-fi"></i> <span>Ko-fi</span></a></li>{% endif %}
+{% if site.external-links.dribbble      %}    <li><a href="https://dribbble.com/{{ site.external-links.dribbble }}" class="button image-button"><i class="material-icons">dribbble</i> <span>Dribbble</span></a></li>{% endif %}
+{% if site.external-links.flickr        %}    <li><a href="https://www.flickr.com/{{ site.external-links.flickr }}" class="button image-button"><i class="material-icons">flickr</i> <span>Flickr</span></a></li>{% endif %}
+{% if site.external-links.linkedin      %}    <li><a href="https://www.linkedin.com/in/{{ site.external-links.linkedin }}" class="button image-button"><i class="material-icons">linkedin</i> <span>LinkedIn</span></a></li>{% endif %}
+{% if site.external-links.pinterest     %}    <li><a href="https://www.pinterest.com/{{ site.external-links.pinterest }}" class="button image-button"><i class="material-icons">pinterest</i> <span>Pinterest</span></a></li>{% endif %}
+{% if site.external-links.twitter       %}    <li><a href="https://www.twitter.com/{{ site.external-links.twitter }}" class="button image-button"><i class="fab fa-twitter"></i> <span>Twitter</span></a></li>{% endif %}
+{% if site.external-links.stackoverflow %}    <li><a href="https://stackoverflow.com/{{ site.external-links.stackoverflow }}" class="button image-button"><i class="fab fa-stack-overflow"></i> <span>StackOverflow</span></a></li>{% endif %}
+{% if site.external-links.youtube       %}    <li><a href="https://youtube.com/{{ site.external-links.youtube }}" class="button image-button"><i class="material-icons">youtube</i><span>YouTube</span></a></li>{% endif %}
+{% if site.external-links.email         %}    <li><a href="mailto:{{ site.external-links.email }}" class="button image-button"><i class="material-icons">email</i> <span>eMail</span></a></li>{% endif %}
+{% if site.external-links.rss           %}    <li><a href="{{ site.baseurl }}/feed.xml" class="button image-button"><i class="material-icons">rss_feed</i> <span>RSS Feed</span></a></li>{% endif %}
+</ul>

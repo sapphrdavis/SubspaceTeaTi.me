@@ -1,0 +1,48 @@
+
+$kbd-inner-shine-color: #FFF8;
+$kbd-inner-shade-color: #0008;
+$kbd-inner-gradient-dark: #111;
+$kbd-inner-gradient-light: #222;
+$kbd-outer-shadow-color: #0004;
+
+
+kbd {
+    display: inline-block;
+    margin: 0 1px;
+    padding: 2px 5px;
+    border-radius: 2pt;
+    background: var(--material-black);
+    background: linear-gradient(to bottom, $kbd-inner-gradient-dark 0%, $kbd-inner-gradient-light 100%);
+    box-shadow: inset 0 1pt 1pt $kbd-inner-shine-color, inset 0 -1pt 1pt $kbd-inner-shade-color, 0 1pt 0.5pt $kbd-outer-shadow-color;
+    color: var(--material-white);
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-size: 10pt;
+    line-height: 1;
+    text-indent: 0;
+    vertical-align: middle;
+}
+
+
+.singular-hero-emoji {
+    font-size: 3cm;
+    text-align: center;
+}
+
+
+.sidebar .avatar {
+    display: block;
+    margin: 1em auto;
+    border: 1px solid var(--semitransparent-grey);
+    border-radius: 99in;
+}
+
+
+.ko-fi::after {
+    content: "\f004";
+    position: absolute;
+    margin: 1.75ex 0 0 -3.1ex;
+    transition-property: color;
+    color: var(--theme-background-color);
+    font-size: 0.75ex;
+    font-weight: 900;
+}

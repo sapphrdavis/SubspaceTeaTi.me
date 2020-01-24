@@ -1,0 +1,139 @@
+
+//
+// Styles for Post pages
+//
+
+
+.post,
+.page {
+    max-width: var(--desktop-small-max-width);
+    margin: auto;
+
+    p {
+        line-height: 1.25;
+        text-indent: 1em;
+
+        &:not(:last-child) {
+            margin: 0 0 1em;
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0 0 1ex;
+        padding: 2em 0 0;
+    }
+
+    header h1 {
+        margin: 3em 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    aside {
+        width: fit-content;
+        margin: 1rem;
+        margin-inline-start: auto;
+        padding: 1ex 1em;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 1ex;
+        border-color: var(--semitransparent-grey);
+        font-size: 0.8rem;
+    }
+
+    blockquote {
+        border-inline-start: 2px solid var(--semitransparent-grey);
+        margin: 2em;
+        padding: 1em;
+    }
+
+    hr {
+        max-width: 3in;
+        margin: 2cm auto;
+        border-style: solid;
+        border-color: var(--semitransparent-grey);
+    }
+
+
+    pre {
+        margin: 1em 0;
+        padding: 1ex;
+        border-radius: 0.5ex;
+        background: var(--code-background);
+    }
+
+    cite {
+        opacity: 0.5;
+        font-style: italic;
+
+        &::before {
+            content: "— ";
+        }
+    }
+
+
+    .chips {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .chip {
+        &:link,
+        &:visited,
+        &:not([disabled]) {
+
+            transition-property: background-color, box-shadow, color;
+
+            &:hover,
+            &:focus {
+                box-shadow: var(--box-shadow-z3);
+            }
+        }
+    }
+
+
+    footer.card {
+        max-width: var(--phone-portrait-medium-max-width);
+        margin: 10vh auto;
+
+        >* {
+            margin: 1em 0;
+
+            // &:first-child {
+            //     margin-block-start: 0;
+            // }
+
+            &:last-child {
+                margin-block-end: 0;
+            }
+        }
+
+        >.chips:first-child {
+            margin-block-start: 1ex;
+        }
+
+        .dates-and-times {
+            list-style-type: none;
+            margin-block-start: 2em;
+
+            >* {
+                margin: 1em 0;
+                opacity: 0.5;
+            }
+
+            time span {
+                display: inline-block;
+            }
+        }
+
+        .oss-links {
+            text-align: end;
+        }
+    }
+}

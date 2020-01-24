@@ -1,0 +1,68 @@
+{% if include.price %}
+{% assign price_array = include.price | strip_newlines | split: ",," %}
+{% else %}
+{% assign price_array = null %}
+{% endif %}
+
+{% if include.creatorUrl %}
+{% assign creatorUrl = include.creatorUrl %}
+{% else %}
+{% assign creatorUrl = include.websiteUrl %}
+{% endif %}
+
+{% if include.websiteName %}
+{% assign websiteName = include.websiteName %}
+{% else %}
+{% assign websiteName = include.websiteUrl | split: "//" %}
+{% assign websiteName = websiteName[1] %}
+{% endif %}
+
+{% if include.platforms %}
+{% assign platforms_array = include.platforms | strip_newlines | split: ",," %}
+{% else %}
+{% assign platforms_array = null %}
+{% endif %}
+
+
+<figure class="infobox infobox-app{% if include.highly %} highly-recommended{% endif %}   flex-row flex-vert-center flex-horiz-center">
+    <a href="{{ include.websiteUrl }}" target="_blank"><div class="{% if include.circular_icon %}circular {% endif %}app-logo   flex-row flex-vert-center flex-horiz-center">{% if include.darkMode_iconUrl %}
+        <img src="{{ include.iconUrl }}" data-target-theme="light"/>
+        <img src="{{ include.darkMode_iconUrl }}" data-target-theme="dark"/>
+    {% else %}
+        <img src="{{ include.iconUrl }}"/>
+    {% endif %}</div></a>
+    <figcaption class="infobox-content">
+        <dl class="flex-row flex-wrap flex-vert-top flex-horiz-left">
+            <div data-infobox-row="creator">
+                <dt>Creator</dt>
+                    <dd><a href="{{ creatorUrl }}" target="_blank">{{ include.creatorName }}</a></dd>
+            </div>
+            <div data-infobox-row="website">
+                <dt>Website</dt>
+                    <dd><a href="{{ include.websiteUrl }}" target="_blank">{{ websiteName }}</a></dd>
+            </div>
+            {% if price_array %}
+            <div data-infobox-row="price">
+                <dt>Price</dt>
+                    {% for price in price_array %}
+                    <dd>{{ price }}</dd>
+                    {% endfor %}
+            </div>
+            {% endif %}
+            {% if platforms_array %}
+            <div data-infobox-row="platforms">
+                <dt>Platforms</dt>
+                    {% for platform in platforms_array %}
+                    <dd>{{ platform }}</dd>
+                    {% endfor %}
+            </div>
+            {% endif %}
+            {% if include.source_model %}
+            <div data-infobox-row="source-model">
+                <dt>Source Model</dt>
+                    <dd>{{ include.source_model }}</dd>
+            </div>
+            {% endif %}
+        </dl>
+    </figcaption>
+</figure>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class="brightness-dark reduce-motion">
+    <!--
+    brightness-dark:                  Set the default theme brightness immediately. Whichever the user picks, this
+                                      default will flash briefly when the page first loads. I figure it's better to
+                                      flash dark when the user wants light, than to flash light when the user wants
+                                      dark. I imagine someone in a darker room getting a sudden flash of light every
+                                      time they navigate wouldn't be happy about it, but someone in a bright room
+                                      getting a flash of darkness might not mind at all.
+
+    reduce-motion:                    This class is almost immediately removed once the page is done loading. This
+                                      ensures that when the user's selected theme is initially read and set with
+                                      scripting, it doesn't animate in, but instantly becomes the current theme. Since
+                                      this is removed immediately thereafter, all other animations continue.
+
+    content-animates-with-navigation: Allows the content to animage in and out when the user navigates between pages.
+    -->
+<head>
+    {% include page-transitions-header-tippity-top-content.html %}
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.author.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <link rel="stylesheet" type="text/css" href="https://stylesheets.bhstudios.org/assets/v2/structure/flex.css" />
+    <link rel="stylesheet" type="text/css" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-tables.css" />
+    <link rel="stylesheet" type="text/css" id="framework-stylesheet" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-renderer.css" />
+    <link rel="stylesheet" type="text/css" id="theme-stylesheet" href="https://stylesheets.bhstudios.org/assets/v2/neon/neon-renderer.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Questrial|Roboto:300,400,700,900&display=swap" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.author.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    {% include social-header-meta.html %}
+
+    <script src="https://shared.bhstudios.org/_js/jquery-bh-preferred.js">/* jQuery */</script>
+    <script src="https://scripts.bhstudios.org/assets/v2/general/js/lib/kotlin.js">/* Kotlin/JS for BHStudios General Script */</script>
+    <script src="https://scripts.bhstudios.org/assets/v2/general/js/BHStudios%20General%20Scripts.js">/* BHStudios General Script */</script>
+
+    <!-- Forked from Jekyll Now - https://GitHub.com/barryclark/jekyll-now -->
+    <!-- See also the git repository at https://GitHub.com/SapphRDavis/SapphDavis.me -->
+
+    <script>
+
+    // Ensure a better page reload, since we can't generate different headers for different users
+    // because this is a static site.
+
+    if (undefined === window.localStorage["org.bh.theme"]) {
+        window.localStorage["org.bh.theme"] = JSON.stringify({"color":"water","brightness":"dark"})
+    }
+    else {
+        const oldBrightness = JSON.parse(window.localStorage["org.bh.theme"]).brightness
+
+    }
+
+    $(window).on("load", function() {
+        $("html").removeClass("reduce-motion")
+    })
+    </script>
+    {% include page-transitions-header-content.html %}
+  </head>
+
+<body>
+    <header class="app-bar gradient-background">
+        <a href="#" class="flat button show-sidebar-button" onclick="return false;"><i class="material-icons">menu</i></a>
+        <a href="/" class="flat button   back-to-root-link"><h1 class="title"><span class="title-text">{{ site.title }}</span><span class="subtitle-text"></span></h1></a>
+        <span class="layout-placeholder"></span>
+    </header>
+
+    {% for banner in site.emergency-banners %}
+    <header class="emergency-banner {{ banner.classes }}">
+        {% include {{ banner.include }} %}
+    </header>
+    {% endfor %}
+
+    <main id="main" class="rises-up-on-load falls-away-on-nav-away">
+        {{ content }}
+    </main>
+
+
+
+    <nav class="sidebar   flex-column flex-vert-space-between">
+        <section>
+            <header>
+                <figure>
+                    <img src="{{ site.author.avatar }}" class="avatar"/>
+                </figure>
+            </header>
+            <ul>
+                {% unless page.url == "/" %}
+                <li><a href="/" class="button">{{ site.title }}</a></li>
+                {% endunless %}
+                {% assign checkSlice = page.url | slice: 0, page.url.size %}
+                {% unless checkSlice == "/about/" %}
+                <li><a href="/about" class="button">About</a></li>
+                {% endunless %}
+            </ul>
+        </section>
+
+        <section>
+            {% include social-links.html %}
+        </section>
+
+        <section>
+            <ul class="theme-color-selection-list">
+                <li><a href="#Brightness-Dark"  onclick="return false" title="Dark"  class="color-swatch" theme-swatch-type="brightness" theme-swatch-value="dark" >Dark</a></li>
+                <li><a href="#Brightness-Light" onclick="return false" title="Light" class="color-swatch" theme-swatch-type="brightness" theme-swatch-value="light">Light</a></li>
+            </ul>
+            <ul class="theme-color-selection-list">
+                <li><a href="#Theme-Water" onclick="return false" title="Water" class="color-swatch" theme-swatch-type="color" theme-swatch-value="water">Water</a></li>
+                <li><a href="#Theme-Earth" onclick="return false" title="Earth" class="color-swatch" theme-swatch-type="color" theme-swatch-value="earth">Earth</a></li>
+                <li><a href="#Theme-Fire"  onclick="return false" title="Fire"  class="color-swatch" theme-swatch-type="color" theme-swatch-value="fire" >Fire</a></li>
+                <li><a href="#Theme-Air"   onclick="return false" title="Air"   class="color-swatch" theme-swatch-type="color" theme-swatch-value="air"  >Air</a></li>
+                <!-- <li><a href="#Theme-Magic" onclick="return setTheme('Magic')" title="Magic" class="color-swatch theme-color-swatch-magic">Magic</a></li> -->
+            </ul>
+        </section>
+    </nav>
+
+    {% include page-transitions-body-bottom-content.html %}
+    {% include analytics.html %}
+</body>
+</html>

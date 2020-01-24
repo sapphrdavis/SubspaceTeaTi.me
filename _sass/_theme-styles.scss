@@ -1,0 +1,20 @@
+/**
+ * SapphDavis.me Theme
+ *
+ * Originally written for BenLeggiero.blog
+ *
+ * @author Ben Leggiero
+ * @since 2018-09-17
+ */
+
+
+.app-bar .title {
+    text-transform: none;
+}
+
+
+:root {
+    --font-family-title: Questrial, var(--font-family-primary);
+    --font-weight-title: 300;
+    --font-size-title: calc(var(--app-bar-height-auto) / 2);
+}

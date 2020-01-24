@@ -1,0 +1,9 @@
+
+    <script type="text/javascript">
+    const rootClassList = document.getRootNode().children[0].classList
+    rootClassList.add("content-animates-with-navigation")
+
+    if (!window.localStorage["org.bh.should-rise-back-on-load"]) {
+        rootClassList.add("disable-load-in-animation")
+    }
+    </script>

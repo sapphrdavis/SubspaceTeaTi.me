@@ -1,0 +1,84 @@
+
+// scss-lint:disable ImportantRule
+
+:root {
+    --page-load-transition-duration: 500ms;
+}
+
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fade-out {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
+@keyframes rise-up {
+    0% { transform: translateY(110vh); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fall-away {
+    0% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(110vh); opacity: 0; }
+}
+
+
+.content-animates-with-navigation {
+    .falls-away-on-nav-away,
+    .fades-out-on-nav-away,
+    .rises-up-on-load,
+    .fades-in-on-load {
+        animation-duration: var(--page-load-transition-duration);
+        animation-play-state: running;
+        animation-timing-function: ease-in;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    .falls-away-on-nav-away {
+        transform: translateY(0);
+        opacity: 1;
+
+        &.fallen-away {
+            animation-name: fall-away;
+        }
+    }
+
+    .fades-out-on-nav-away {
+        opacity: 1;
+
+        &.faded-out {
+            animation-name: fade-out;
+        }
+    }
+
+
+    &:not(.disable-load-in-animation) {
+        .rises-up-on-load {
+            transform: translateY(110vh);
+            opacity: 0;
+
+            &.risen-up {
+                animation-name: rise-up;
+            }
+        }
+
+        .fades-in-on-load {
+            opacity: 0;
+
+            &.faded-in {
+                animation-name: fade-in;
+            }
+        }
+
+        footer.fades-in-on-load:not(.fallen-away):not(.faded-out) {
+            animation-delay: calc(var(--page-load-transition-duration));
+        }
+    }
+}

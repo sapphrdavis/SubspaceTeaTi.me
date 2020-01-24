@@ -1,0 +1,70 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "variables";
+@import "page-transitions";
+@import "posts-and-pages";
+@import "post-list";
+@import "infoboxes";
+@import "word-cloud";
+@import "decorations";
+@import "legal-styles";
+@import "theme-styles";
+@import "emergency-banners";
+
+
+
+main {
+    max-width: var(--desktop-large-min-width);
+
+    .centered {
+        text-align: center;
+    }
+}
+
+
+@keyframes load {
+    0% {
+        transition-duration: 0ms !important;
+        transition-property: none !important;
+    }
+
+    100% {
+        transition-duration: 0ms !important;
+        transition-property: none !important;
+    }
+}
+
+* {
+    animation-name: load;
+    animation-duration: 1s;
+    animation-timing-function: step-end;
+}
+
+
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "rouge-code-highlighting";
+
+
+
+
+.sidebar ul .button.image-button {
+    align-items: center;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.sidebar ul .button.image-button {
+    .material-icons,
+    .fab {
+        font-size: 2em;
+        width: 1em;
+    }
+}

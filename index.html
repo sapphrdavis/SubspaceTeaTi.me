@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="posts   link-style-underline-on-hover   flex-row flex-wrap flex-horiz-stretch flex-horiz-center">
+    {% for post in site.posts %}
+    {% if post.categories contains 'Separator' %}
+    <article class="post separator">
+        <h1>{{ post.title }}</h1>
+        <div class="entry">
+            {{ post.excerpt }}
+        </div>
+    </article>
+    {% else %}
+    <article class="post   flex-column flex-vert-space-between">
+        <section>
+            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+            {% if post.categories contains 'Micro' %}
+            <div class="entry">
+                {{ post.content }}
+            </div>
+            {% else %}
+            <div class="entry">
+                {{ post.excerpt }}
+            </div>
+            {% endif %}
+        </section>
+
+        <footer class="flex-row flex-horiz-space-between flex-vert-center">
+            <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%a. %F at %R" }}</time>
+
+            <ol class="chips   plain   flex-row flex-wrap flex-horiz-center flex-vert-center">
+                {% for category in post.categories %}
+                {% if category == 'Migrated' or category == 'Essay' %}
+                <li><span class="chip" disabled data-category-name="{{ category }}">{{ category }}</span></li>
+                {% endif %}
+                {% endfor %}
+            </ol>
+
+            {% unless post.categories contains 'Micro' %}
+            <a href="{{ site.baseurl }}{{ post.url }}" class="small low-emphasis button">Read More</a>
+            {% else %}
+            <span class="placeholder"></span>
+            {% endunless %}
+        </footer>
+    </article>
+    {% endif %}
+    {% endfor %}
+</div>

@@ -1,0 +1,62 @@
+
+$emergency-banner-background-color: var(--material-red-a700);
+$emergency-banner-text-color: var(--material-gray-50);
+$emergency-banner-link-color: var(--material-blue-a100);
+
+$emergency-banner-caution-background-color: var(--material-yellow-a200);
+$emergency-banner-caution-text-color: var(--material-gray-900);
+$emergency-banner-caution-link-color: var(--material-blue-900);
+
+
+.emergency-banner {
+
+    width: var(--desktop-small-max-width);
+    max-width: calc(100vw - var(--card-margin-inline-start) - var(--card-margin-inline-end));
+
+    margin: var(--card-margin-block-start) auto var(--card-margin-block-end);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+
+    background: $emergency-banner-background-color;
+    box-shadow: var(--card-shadow-raised);
+    color: $emergency-banner-text-color;
+
+    &.caution-banner {
+        background: $emergency-banner-caution-background-color;
+        color: $emergency-banner-caution-text-color;
+
+
+        :link,
+        :visited {
+            color: $emergency-banner-caution-link-color;
+            font-weight: bold;
+        }
+    }
+
+    :link,
+    :visited {
+        color: $emergency-banner-link-color;
+        font-weight: bold;
+    }
+
+    h1,
+    h2 {
+        font-weight: 900;
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        &:not(:first-child) {
+            margin-block-start: 1ex;
+        }
+
+        &:not(:last-child) {
+            margin-block-end: 1ex;
+        }
+    }
+}

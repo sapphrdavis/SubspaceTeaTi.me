@@ -1,0 +1,8 @@
+
+<script>
+if (window.localStorage["org.bh.should-rise-back-on-load"]) {
+    window.localStorage.removeItem("org.bh.should-rise-back-on-load")
+    $(".rises-up-on-load").addClass("risen-up")
+    $(".fades-in-on-load").addClass("faded-in")
+}
+</script>

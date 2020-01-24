@@ -1,0 +1,15 @@
+.word-cloud {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    .word, li {
+        display: inline-block;
+        padding: 1ex 1em;
+        opacity: 0.8;
+
+        border-radius: 99in;
+        margin: 2pt 0;
+    }
+}

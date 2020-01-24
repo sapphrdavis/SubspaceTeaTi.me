@@ -1,0 +1,45 @@
+.posts .post {
+    flex-basis: 5in;
+    margin: 1em;
+    padding: 1em 1em 1ex;
+
+    transition-property: background;
+
+    border-radius: 1ex;
+    background: var(--theme-background-color-at-level-raised);
+    box-shadow: var(--box-shadow-z1);
+
+
+    @media (max-width: 6in) {
+        flex-basis: 100%;
+        margin: 1em 0;
+    }
+
+    &.separator {
+        flex-basis: calc(100% - 2em);
+        flex-basis: fill;
+        opacity: 0.7;
+        background: none;
+        box-shadow: none;
+        text-align: center;
+    }
+
+    h1 {
+        padding-block-start: 0;
+        margin-block-start: 0;
+        margin-block-end: 1ex;
+    }
+
+    .date {
+        opacity: 0.5;
+        font-size: 80%;
+    }
+
+    footer {
+        max-width: none;
+        min-height: 2em;
+        margin: 1ex 0 0;
+
+        --button-flat-margin: 0;
+    }
+}

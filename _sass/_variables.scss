@@ -1,0 +1,15 @@
+
+@import "https://stylesheets.bhstudios.org/assets/v2/material/material-colors-vars.css";
+
+
+// Mobile breakpoints
+@mixin mobile {
+    @media screen and (max-width: 640px) {
+        @content;
+    }
+}
+
+
+:root {
+    --semitransparent-grey: hsla(0, 0%, 50%, 0.5);
+}

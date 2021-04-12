@@ -26,11 +26,23 @@ author:
 #
 
 # Includes an icon in the footer or sidebar for each username you enter
-external-links:
-    rss: /feed.xml
-    patreon: SubspaceTeaTime
-    ko-fi: infinitebadness
 
+sidebar:
+    headerImage:
+        htmlClassNames: avatar
+    defaultLinks:
+        -
+            text: Patreon
+            url: SubspaceTeaTime
+            fontAwesomeIcon: fab fa-patreon
+        -
+            text: Ko-fi
+            url: infinitebadness
+            fontAwesomeIcon: fas fa-2x fa-mug-hot ko-fi
+        -
+            text: RSS
+            url: /feed.xml
+            materialIcon: rss_feed
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -88,3 +100,6 @@ exclude:
     - LICENSE
     - README.md
     - CNAME
+
+include:
+    - .github/

@@ -7,10 +7,10 @@ name: Subspace Tea Time
 # Name of your site (displayed in the tab)
 title: Subspace Tea Time
 
-emergency-banners:
-    -
-        include: emergency-banners/criminal-harrassing-abuser.html
-        classes: caution-banner
+# emergency-banners:
+#     -
+#         include: emergency-banners/criminal-harrassing-abuser.html
+#         classes: caution-banner
 
 # Short bio or description (displayed in the about screen & sidebar)
 description: Artist | Writer | Cartographer

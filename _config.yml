@@ -50,6 +50,10 @@ sidebar:
             url: /feed.xml
             materialIcon: rss_feed
 
+default-neon-theme-url: https://stylesheets.bhstudios.org/assets/v2/neon/neon-earth.css
+default-theme:
+    color: earth
+
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus:

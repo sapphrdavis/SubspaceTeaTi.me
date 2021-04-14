@@ -10,7 +10,7 @@ categories:
 ## The Story of a Girl
 {:.centered}
 
-![A futuristic city with tall buildings glowing beneath a night sky.](https://i.imgur.com/6GH7wKR.png)
+![A futuristic city with tall buildings glowing beneath a night sky.](https://i.imgur.com/6GH7wKR.png){:.pixel-art}
 {:.centered}
 
 ### By Sapphire Rachel Davis

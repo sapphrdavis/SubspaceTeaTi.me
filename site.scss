@@ -5,6 +5,7 @@
 // IMPORTS
 //
 
+@import "typography";
 @import "variables";
 @import "page-transitions";
 @import "posts-and-pages";
@@ -12,9 +13,11 @@
 @import "infoboxes";
 @import "word-cloud";
 @import "decorations";
+@import "images";
 @import "legal-styles";
 @import "theme-styles";
 @import "emergency-banners";
+@import "sidebar";
 
 
 
@@ -23,6 +26,7 @@ main {
 
     .centered {
         text-align: center;
+        text-indent: 0;
     }
 }
 
@@ -50,21 +54,3 @@ main {
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "rouge-code-highlighting";
-
-
-
-
-.sidebar ul .button.image-button {
-    align-items: center;
-    display: flex !important;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-.sidebar ul .button.image-button {
-    .material-icons,
-    .fab {
-        font-size: 2em;
-        width: 1em;
-    }
-}

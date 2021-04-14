@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(/fonts/OpenDyslexic3-Regular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url(/fonts/OpenDyslexic3-Bold.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url(/fonts/OpenDyslexic-Italic.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url(/fonts/OpenDyslexic-BoldItalic.otf) format('otf');
+}
+
+
+
+:root {
+    --font-size-body: 12pt;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    .entry>&:first-child {
+        padding-top: 0;
+    }
+}

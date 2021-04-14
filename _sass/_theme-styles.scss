@@ -18,3 +18,58 @@
     --font-weight-title: 300;
     --font-size-title: calc(var(--app-bar-height-auto) / 2);
 }
+
+:root {
+    --theme-earth-primary-color: hsl(16deg, 24%, 36%);
+    --theme-earth-accent-color: hsl(16deg, 25%, 50%);
+
+    --light-theme-background-color:      hsl(40deg, 70%, 91%);
+    --theme-background-color-at-level-1: hsl(40deg, 70%, 91%);
+    --theme-background-color-at-level-2: hsl(40deg, 50%, 89%);
+    --theme-background-color-at-level-3: hsl(40deg, 40%, 87%);
+
+    --dark-theme-background-color: hsl(200deg, 5%, 18%);
+    --dark-theme-foreground-color: hsl(0, 0%, 93%);
+}
+
+:root,
+.posts .post {
+    background-image: url(/images/background-texture.jpg);
+    background-blend-mode: multiply;
+    background-size: calc(1250px / 3) calc(1750px / 3);
+
+    &.brightness-dark, .brightness-dark &,
+    &.brightness-black, .brightness-black & {
+        background-blend-mode: color-burn;
+    }
+}
+
+
+
+.brightness-dark,
+.brightness-black {
+    --theme-earth-primary-color: hsl(16deg, 18%, 47%);
+    --theme-earth-accent-color: hsl(16deg, 15%, 56%);
+
+    --theme-background-color-at-level-1: hsl(40deg, 5%, 18%);
+    --theme-background-color-at-level-2: hsl(40deg, 5%, 15%);
+    --theme-background-color-at-level-3: hsl(40deg, 5%, 12%);
+
+
+    .app-bar {
+        &, * {
+            color: hsla(16deg, 3%, 90%, 90%) !important;
+        }
+    }
+}
+
+
+.app-bar {
+    background-image: linear-gradient(to bottom, hsla(0deg, 0%, 100%, 6%), hsla(0deg, 0%, 0%, 14%)), url(/images/app-bar-background-bottom.jpg);
+    background-blend-mode: normal, multiply;
+    background-size: auto, 500px;
+    background-position-y: 0, bottom;
+    background-repeat: repeat-x;
+    text-shadow: -1px -1px 1px hsla(0, 0%, 0%, 50%),
+                  1px  1px 1px hsla(0, 0%, 100%, 50%);
+}

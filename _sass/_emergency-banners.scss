@@ -10,8 +10,7 @@ $emergency-banner-caution-link-color: var(--material-blue-900);
 
 .emergency-banner {
 
-    width: var(--desktop-small-max-width);
-    max-width: calc(100vw - var(--card-margin-inline-start) - var(--card-margin-inline-end));
+    max-width: min(var(--desktop-small-max-width), calc(100vw - var(--card-margin-inline-start) - var(--card-margin-inline-end)));
 
     margin: var(--card-margin-block-start) auto var(--card-margin-block-end);
     padding: var(--card-padding);

@@ -1,0 +1,14 @@
+
+.sidebar ul .button.image-button {
+    align-items: center;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    .material-icons,
+    .fab, .fas {
+        font-size: 2rem;
+        width: 2rem;
+        margin-inline-end: 1rem;
+    }
+}

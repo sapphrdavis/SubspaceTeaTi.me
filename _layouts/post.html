@@ -1,8 +1,13 @@
 ---
-layout: default
+layout: Neon/post
+
+app-bar:
+    right-buttons:
+        -
+            materialIcon: text_format
+            onClick: "$(':root').toggleClass('font-serif'); return false;"
 ---
 
-<article class="post">
     <header>
         <h1>{{ page.title }}</h1>
     </header>
@@ -10,44 +15,3 @@ layout: default
     <div class="entry">
     {{ content }}
     </div>
-
-    <footer class="card">
-        <ol class="chips   plain   flex-row flex-wrap flex-horiz-center flex-vert-center">
-            {% for category in page.categories %}
-            <li><span class="chip" disabled data-category-name="{{ category }}">{{ category }}</span></li>
-            {% endfor %}
-        </ol>
-
-        <ol class="dates-and-times">
-            <li>
-                <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
-                    <span>{% if page.date-migrated or page.date-edit %}Originally posted{% else %}Posted{% endif %}</span> {{ page.date | date: "%F <span>(a %A)</span> at <span>%R %Z</span>" }}
-                </time>
-            </li>
-            {% if page.date-migrated %}
-            <li>
-                <time class="date" datetime="{{ page.date-migrated | date_to_xmlschema }}">
-                    Migrated {{ page.date-migrated | date: "%F (a %A) at %R %Z" }}
-                </time>
-            </li>
-            {% endif %}
-            {% if page.date-edit %}
-            <li>
-                <time class="date" datetime="{{ page.date-edit | date_to_xmlschema }}">
-                    Updated {{ page.date-edit | date: "%F (a %A) at %R %Z" }}
-                </time>
-            </li>
-            {% endif %}
-        </ol>
-
-        <footer class="oss-links">
-            {% if page.original-url %}
-            <a href="{{ page.original-url }}" title="View Original" target="_blank" class="low-emphasis button"><i class="material-icons">import_contacts</i> <span>View Original</span></a>
-            {% endif %}
-            <a href="https://github.com/{{ site.github-repository }}/commits/master/{{ page.path }}" title="Post History" target="_blank" class="low-emphasis button"><i class="material-icons">history</i> <span>History</span></a>
-            <a href="https://github.com/{{ site.github-repository }}/edit/master/{{ page.path }}" title="Suggest an Edit" target="_blank" class="low-emphasis button"><i class="material-icons">edit</i> <span>Suggest an Edit</span></a>
-        </footer>
-    </footer>
-</article>
-
-{% include disqus.html %}

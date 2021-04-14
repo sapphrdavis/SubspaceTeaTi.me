@@ -1,5 +1,5 @@
 
-rm -r _site/
+rm -r ./_site/
 
 bundle check
 bundleCheckStatus=$?

@@ -3,21 +3,21 @@
 #
 
 # Name of your site (displayed in the header)
-name: Sapph's Stuff
+name: Subspace Tea Time
 # Name of your site (displayed in the tab)
-title: Sapph's Stuff
+title: Subspace Tea Time
 
-emergency-banners:
-    -
-        include: emergency-banners/criminal-harrassing-abuser.html
-        classes: caution-banner
+# emergency-banners:
+#     -
+#         include: emergency-banners/criminal-harrassing-abuser.html
+#         classes: caution-banner
 
 # Short bio or description (displayed in the about screen & sidebar)
 description: Artist | Writer | Cartographer
 
 author:
     # Your name
-    name: Sapph R. Davis
+    name: Ro
     # URL of your avatar or profile pic (you could use your GitHub profile pic)
     avatar: https://www.gravatar.com/avatar/472c3e5e6f37d539ef9db633991dcc78?s=140px  # yamllint disable-line rule:line-length
 
@@ -25,12 +25,34 @@ author:
 # Flags below are optional
 #
 
-# Includes an icon in the footer or sidebar for each username you enter
-external-links:
-    rss: /feed.xml
-    patreon: Witch0Winter
-    ko-fi: sapphdavis
 
+# Repository info
+github:
+    username: sapphrdavis
+    repoName: SubspaceTeaTi.me
+
+
+# Sidebar configuration
+sidebar:
+    headerImage:
+        htmlClassNames: avatar
+    defaultLinks:
+        -
+            text: Patreon
+            url: SubspaceTeaTime
+            fontAwesomeIcon: fab fa-patreon
+        -
+            text: Ko-fi
+            url: infinitebadness
+            fontAwesomeIcon: fas fa-2x fa-mug-hot ko-fi
+        -
+            text: RSS
+            url: /feed.xml
+            materialIcon: rss_feed
+
+default-neon-theme-url: https://stylesheets.bhstudios.org/assets/v2/neon/neon-earth.css
+default-theme:
+    color: earth
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -42,7 +64,7 @@ google_analytics:
 
 # Your website URL (e.g. https://barryclark.github.io or https://SapphDavis.me)
 # Used for Sitemap.xml and your RSS feed
-url: https://SapphDavis.me
+url: https://SubspaceTeaTi.me
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -88,3 +110,6 @@ exclude:
     - LICENSE
     - README.md
     - CNAME
+
+include:
+    - .github/

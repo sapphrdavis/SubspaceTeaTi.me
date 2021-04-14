@@ -1,0 +1,11 @@
+---
+layout: Neon/general
+---
+
+{% for banner in site.emergency-banners %}
+<header class="emergency-banner {{ banner.classes }}">
+    {% include {{ banner.include }} %}
+</header>
+{% endfor %}
+
+{{ content }}

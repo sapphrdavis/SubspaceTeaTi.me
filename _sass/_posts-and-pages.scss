@@ -9,9 +9,19 @@
     max-width: var(--desktop-small-max-width);
     margin: auto;
 
+    .font-serif & {
+        --font-family-primary: "EB Garamond", serif;
+        --font-size-body: 14pt;
+        --font-weight-body: 500;
+    }
+
     p {
         line-height: 1.25;
         text-indent: 1em;
+
+        font-family: var(--font-family-primary), "Roboto", sans-serif;
+        font-size: var(--font-size-body, 1em);
+        font-weight: var(--font-weight-body, normal);
 
         &:not(:last-child) {
             margin: 0 0 1em;

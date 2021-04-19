@@ -72,4 +72,8 @@
     background-repeat: repeat-x;
     text-shadow: -1px -1px 1px hsla(0, 0%, 0%, 50%),
                   1px  1px 1px hsla(0, 0%, 100%, 50%);
+
+    .context-menu {
+        text-shadow: none;
+    }
 }

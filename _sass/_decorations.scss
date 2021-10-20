@@ -45,9 +45,9 @@ kbd {
 .ko-fi::after {
     content: "\f004";
     position: absolute;
-    margin: 1.75ex 0 0 -3.1ex;
+    margin: 1.5ex 0 0 -3.1ex;
     transition-property: color;
-    color: var(--theme-background-color);
+    color: var(--sidebar-background-color);
     font-size: 0.75ex;
     font-weight: 900;
     line-height: 1;

@@ -10,7 +10,7 @@
 
 
 .font-menu {
-    padding: 0 1em;
+    padding: 0 16px;
 
     .font-selector-input {
         appearance: none;
@@ -20,9 +20,9 @@
     .font-specimen {
         border: 1px solid hsla(0, 0, 100, 0.1);
         display: flex;
-        margin: 1ex;
-        padding: 0 0.5em;
-        font-size: 2em;
+        margin: 8px;
+        padding: 0 16px;
+        font-size: 2rem;
         height: 5rem;
         min-height: 0;
         line-height: 1rem;
@@ -37,6 +37,13 @@
             background: hsla(0, 0, 100, 0.1);
         }
 
+        &:not(:hover):not(:focus) {
+            figcaption {
+                height: 0;
+                opacity: 0;
+            }
+        }
+
         .font-specimen-content {
             display: flex;
             flex-direction: column;
@@ -48,20 +55,31 @@
         }
 
         figcaption {
+            transition-property: height, line-height, opacity;
             font-family: var(--font-family-sans-serif), sans-serif;
-            font-size: 0.5rem;
+            font-size: 10px;
+
+            height: 1em;
+            opacity: 1;
         }
 
-        .sans-serif {
+        &.sans-serif {
             font-family: var(--font-family-sans-serif), sans-serif;
         }
 
-        .serif {
+        &.serif {
             font-family: var(--font-family-serif), serif;
         }
 
-        .dyslexic {
+        &.dyslexic {
             font-family: var(--font-family-dyslexic), serif;
         }
     }
+}
+
+
+
+.shows-child-on-hover .context-menu {
+    --context-menu-vertical-padding: 8px;
+    margin: 8px;
 }

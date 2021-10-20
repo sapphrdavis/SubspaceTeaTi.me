@@ -6,7 +6,7 @@
     font-style: normal;
     font-weight: normal;
     font-display: auto;
-    src: url('/fonts/OpenDyslexic3-Regular.ttf') format('ttf');
+    src: url('https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/woff/OpenDyslexic-Regular.woff') format('woff');
 }
 
 @font-face {
@@ -14,7 +14,7 @@
     font-style: normal;
     font-weight: bold;
     font-display: auto;
-    src: url('/fonts/OpenDyslexic3-Bold.ttf') format('ttf');
+    src: url('https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/woff/OpenDyslexic-Bold.woff') format('woff');
 }
 
 @font-face {
@@ -22,7 +22,7 @@
     font-style: italic;
     font-weight: normal;
     font-display: auto;
-    src: url('/fonts/OpenDyslexic-Italic.otf') format('otf');
+    src: url('https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/woff/OpenDyslexic-Italic.woff') format('woff');
 }
 
 @font-face {
@@ -30,7 +30,7 @@
     font-style: italic;
     font-weight: bold;
     font-display: auto;
-    src: url('/fonts/OpenDyslexic-BoldItalic.otf') format('otf');
+    src: url('https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/woff/OpenDyslexic-BoldItalic.woff') format('woff');
 }
 
 
@@ -65,4 +65,5 @@ h1, h2, h3, h4, h5, h6 {
 
 .font-dyslexic {
     --font-family-primary: var(--font-family-dyslexic), serif;
+    --font-size-body: 12pt;
 }

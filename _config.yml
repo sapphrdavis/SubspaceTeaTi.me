@@ -39,11 +39,11 @@ sidebar:
     defaultLinks:
         -
             text: Patreon
-            url: SubspaceTeaTime
+            url: https://www.patreon.com/SubspaceTeaTime
             fontAwesomeIcon: fab fa-patreon
         -
             text: Ko-fi
-            url: infinitebadness
+            url: https://ko-fi.com/SubspaceTeaTime
             fontAwesomeIcon: fas fa-2x fa-mug-hot ko-fi
         -
             text: RSS

@@ -59,3 +59,37 @@ $emergency-banner-caution-link-color: var(--material-blue-900);
         }
     }
 }
+
+
+
+.content-warning {
+    margin: 25vh auto;
+    max-width: 6in;
+
+    &.compact {
+        margin: 0 auto;
+
+        .heading {
+            font-size: 1em;
+        }
+    }
+
+    .heading {
+        margin: 0 0 0.5ex;
+        padding: 0;
+        font-size: 1.5em;
+    }
+
+    .warning-icon {
+        color: var(--material-amber-800);
+        font-size: 1.2em;
+        vertical-align: text-bottom;
+
+        transition-property: color;
+
+        .brightness-dark &,
+        .brightness-black & {
+            color: var(--material-amber-500);
+        }
+    }
+}

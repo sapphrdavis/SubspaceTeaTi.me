@@ -1,0 +1,95 @@
+/**
+ * Font menu
+ *
+ * Originally written for SubspaceTeaTi.me
+ *
+ * @author Ky Leggiero
+ * @since 2020-04-18
+ */
+
+
+
+.font-menu {
+    padding: 0 16px;
+
+    .font-selector-input {
+        appearance: none;
+    }
+
+
+    .font-specimen {
+        border: 1px solid hsla(0, 0, 0, 0.1);
+        display: flex;
+        margin: 8px;
+        padding: 0 16px;
+        font-size: 2rem;
+        height: 5rem;
+        min-height: 0;
+        line-height: 1rem;
+        width: 5rem;
+        align-items: center;
+        place-items: center;
+        border-radius: 1in;
+        text-align: center;
+
+        [brightness-dark] &,
+        [brightness-black] & {
+            border-color: hsla(0, 0, 100, 0.1);
+
+            &:hover,
+            &:focus {
+                background: hsla(0, 0, 100, 0.1);
+            }
+        }
+
+        &:hover,
+        &:focus {
+            background: hsla(0, 0, 0, 0.1);
+        }
+
+        &:not(:hover):not(:focus) {
+            figcaption {
+                height: 0;
+                opacity: 0;
+            }
+        }
+
+        .font-specimen-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            line-height: 1.1;
+        }
+
+        figcaption {
+            transition-property: height, line-height, opacity;
+            font-family: var(--font-family-sans-serif), sans-serif;
+            font-size: 10px;
+
+            height: 1em;
+            opacity: 1;
+        }
+
+        &.sans-serif {
+            font-family: var(--font-family-sans-serif), sans-serif;
+        }
+
+        &.serif {
+            font-family: var(--font-family-serif), serif;
+        }
+
+        &.dyslexic {
+            font-family: var(--font-family-dyslexic), serif;
+        }
+    }
+}
+
+
+
+.shows-child-on-hover .context-menu {
+    --context-menu-vertical-padding: 8px;
+    margin: 8px;
+}

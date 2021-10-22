@@ -5,38 +5,42 @@
     font-family: 'OpenDyslexic';
     font-style: normal;
     font-weight: normal;
-    font-display: swap;
-    src: url(/fonts/OpenDyslexic3-Regular.ttf) format('ttf');
+    font-display: auto;
+    src: url('https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/woff/OpenDyslexic-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'OpenDyslexic';
     font-style: normal;
     font-weight: bold;
-    font-display: swap;
-    src: url(/fonts/OpenDyslexic3-Bold.ttf) format('ttf');
+    font-display: auto;
+    src: url('https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/woff/OpenDyslexic-Bold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'OpenDyslexic';
     font-style: italic;
     font-weight: normal;
-    font-display: swap;
-    src: url(/fonts/OpenDyslexic-Italic.otf) format('otf');
+    font-display: auto;
+    src: url('https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/woff/OpenDyslexic-Italic.woff') format('woff');
 }
 
 @font-face {
     font-family: 'OpenDyslexic';
     font-style: italic;
     font-weight: bold;
-    font-display: swap;
-    src: url(/fonts/OpenDyslexic-BoldItalic.otf) format('otf');
+    font-display: auto;
+    src: url('https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/woff/OpenDyslexic-BoldItalic.woff') format('woff');
 }
 
 
 
 :root {
     --font-size-body: 12pt;
+
+    --font-family-serif: "EB Garamond";
+    --font-family-sans-serif: "Roboto";
+    --font-family-dyslexic: "OpenDyslexic";
 }
 
 
@@ -45,4 +49,21 @@ h1, h2, h3, h4, h5, h6 {
     .entry>&:first-child {
         padding-top: 0;
     }
+}
+
+
+
+.font-serif {
+    --font-family-primary: var(--font-family-serif), serif;
+    --font-size-body: 14pt;
+    --font-weight-body: 500;
+}
+
+.font-sans-serif {
+    --font-family-primary: var(--font-family-sans-serif), sans-serif;
+}
+
+.font-dyslexic {
+    --font-family-primary: var(--font-family-dyslexic), serif;
+    --font-size-body: 12pt;
 }

@@ -17,7 +17,7 @@ description: Artist | Writer | Cartographer
 
 author:
     # Your name
-    name: Ro
+    name: Anna
     # URL of your avatar or profile pic (you could use your GitHub profile pic)
     avatar: https://www.gravatar.com/avatar/472c3e5e6f37d539ef9db633991dcc78?s=140px  # yamllint disable-line rule:line-length
 
@@ -39,11 +39,11 @@ sidebar:
     defaultLinks:
         -
             text: Patreon
-            url: SubspaceTeaTime
+            url: https://www.patreon.com/SubspaceTeaTime
             fontAwesomeIcon: fab fa-patreon
         -
             text: Ko-fi
-            url: infinitebadness
+            url: https://ko-fi.com/SubspaceTeaTime
             fontAwesomeIcon: fas fa-2x fa-mug-hot ko-fi
         -
             text: RSS

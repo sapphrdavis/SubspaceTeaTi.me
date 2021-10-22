@@ -1,9 +1,9 @@
 /**
- * SapphDavis.me Theme
+ * SubspaceTeaTi.me Theme
  *
- * Originally written for BenLeggiero.blog
+ * Originally written for Blog.KyLeggiero.me
  *
- * @author Ben Leggiero
+ * @author Ky Leggiero
  * @since 2018-09-17
  */
 
@@ -21,7 +21,7 @@
 
 :root {
     --theme-earth-primary-color: hsl(16deg, 24%, 36%);
-    --theme-earth-accent-color: hsl(16deg, 25%, 50%);
+    --theme-earth-accent-color: hsl(262deg, 52%, 47%);
 
     --light-theme-background-color:      hsl(40deg, 70%, 91%);
     --theme-background-color-at-level-1: hsl(40deg, 70%, 91%);
@@ -49,7 +49,7 @@
 .brightness-dark,
 .brightness-black {
     --theme-earth-primary-color: hsl(16deg, 18%, 47%);
-    --theme-earth-accent-color: hsl(16deg, 15%, 56%);
+    --theme-earth-accent-color: hsl(262deg, 47%, 63%);
 
     --theme-background-color-at-level-1: hsl(40deg, 5%, 18%);
     --theme-background-color-at-level-2: hsl(40deg, 5%, 15%);
@@ -58,7 +58,7 @@
 
     .app-bar {
         &, * {
-            color: hsla(16deg, 3%, 90%, 90%) !important;
+            color: hsla(16deg, 3%, 90%, 90%);// !important;
         }
     }
 }
@@ -72,4 +72,8 @@
     background-repeat: repeat-x;
     text-shadow: -1px -1px 1px hsla(0, 0%, 0%, 50%),
                   1px  1px 1px hsla(0, 0%, 100%, 50%);
+
+    .context-menu {
+        text-shadow: none;
+    }
 }

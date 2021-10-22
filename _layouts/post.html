@@ -1,11 +1,13 @@
 ---
-layout: Neon/post
+layout: Neon-Jekyll-Layouts/post
 
 app-bar:
     right-buttons:
         -
             materialIcon: text_format
             onClick: "$(':root').toggleClass('font-serif'); return false;"
+            menu:
+                contentInclude: font-menu.html
 ---
 
     <header>

@@ -1,5 +1,5 @@
 ---
-layout: Neon-Jekyll-Layouts/general
+layout: Neon-Jekyll-Layouts/post-list
 ---
 
 {%- for banner in site.emergency-banners %}
@@ -7,14 +7,6 @@ layout: Neon-Jekyll-Layouts/general
     {% include {{ banner.include }} %}
 </header>
 {% endfor %}
-
-
-
-{%- if page.content-warning %}
-{% include content-warning.html
-    message=page.content-warning
-    %}
-{% endif %}
 
 
 

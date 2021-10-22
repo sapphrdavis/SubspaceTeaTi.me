@@ -4,6 +4,11 @@
 //
 
 
+:root {
+    --nsfw-stroke-color: #e91e63;
+}
+
+
 .post,
 .page {
     max-width: var(--desktop-small-max-width);
@@ -99,6 +104,13 @@
                 box-shadow: var(--box-shadow-z3);
             }
         }
+
+        // &[data-category-name="NSFW"] {
+        //     transition-property: color;
+        //     border: 2px solid var(--nsfw-stroke-color);
+        //     color: var(--nsfw-stroke-color);
+        //     font-weight: bold;
+        // }
     }
 
 

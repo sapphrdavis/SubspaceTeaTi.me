@@ -18,7 +18,7 @@
 
 
     .font-specimen {
-        border: 1px solid hsla(0, 0, 100, 0.1);
+        border: 1px solid hsla(0, 0, 0, 0.1);
         display: flex;
         margin: 8px;
         padding: 0 16px;
@@ -32,9 +32,19 @@
         border-radius: 1in;
         text-align: center;
 
+        [brightness-dark] &,
+        [brightness-black] & {
+            border-color: hsla(0, 0, 100, 0.1);
+
+            &:hover,
+            &:focus {
+                background: hsla(0, 0, 100, 0.1);
+            }
+        }
+
         &:hover,
         &:focus {
-            background: hsla(0, 0, 100, 0.1);
+            background: hsla(0, 0, 0, 0.1);
         }
 
         &:not(:hover):not(:focus) {

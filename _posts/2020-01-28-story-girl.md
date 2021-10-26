@@ -4,6 +4,14 @@ title: The Land of Neon and Northern Lights
 date: 2020-01-28 09:08 -0700
 categories:
   - Writing
+
+social-preview-image: https://i.imgur.com/6GH7wKR.png
+
+excerpt: >
+    <p>Frosted wind howled savagely and beat against the thick plexiglass shell covering a lonely maglev train station. Inside stood a single woman shivering even in a thick coat and standing beneath heaters that hummed lowly in the grim light.</p>
+
+
+    <p>It’s too cold, she thought, and was surprised at herself. With a Canadian passport buried in the silver bag on her arm, beneath scarves and gloves and estrogen pills, she wouldn’t have thought herself a stranger to freezing temperatures. Yet here she was. Standing on a tile platform as gray and featureless as the world outside, the monotony only broken by rows of plastic benches, Laura pulled her coat tighter around herself.</p>
 ---
 
 

@@ -39,6 +39,16 @@
         margin-block-end: 1em;
     }
 
+    .preview-link {
+        display: block;
+    }
+
+    img.preview {
+        display: block;
+        max-height: 3in;
+        margin: 2rem auto 0;
+    }
+
     footer {
         max-width: none;
         min-height: 2em;

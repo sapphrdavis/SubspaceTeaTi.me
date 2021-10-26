@@ -4,6 +4,8 @@ title: Colorado Senate Primary History
 date: 2020-03-10 16:31 -0700
 categories:
   - Politics
+
+social-preview-image: https://i.imgur.com/pxntN5C.png
 ---
 
 

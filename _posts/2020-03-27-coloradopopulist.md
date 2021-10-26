@@ -4,6 +4,8 @@ title: Populists in Colorado
 date: 2020-03-27 11:00 -0700
 categories:
   - Politics
+
+social-preview-image: https://i.imgur.com/Q2duyn6.png
 ---
 
 ### Populists and the 1892 Election in Colorado

@@ -51,8 +51,7 @@ sidebar:
             materialIcon: rss_feed
 
 post-list:
-    categories-to-display:
-        - NSFW
+    display-all-categories: true
 
 default-neon-theme-url: https://stylesheets.bhstudios.org/assets/v2/neon/neon-earth.css
 default-theme:

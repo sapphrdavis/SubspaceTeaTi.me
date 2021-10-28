@@ -3,7 +3,7 @@ layout: post
 title: The Witchʼs Girl
 date: 2021-10-22 02:32 -0600
 categories:
-  - Stories
+  - Short Story
   - NSFW
 
 content-warning: This story contains depictions of suicidal ideation, blood, transformation, mental change, dominance, biting, discussions of violence, past abuse, and transphobia.

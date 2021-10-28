@@ -3,7 +3,8 @@ layout: post
 title: The Land of Neon and Northern Lights
 date: 2020-01-28 09:08 -0700
 categories:
-  - Writing
+  - Short Story
+  - SFW
 
 social-preview-image: https://i.imgur.com/6GH7wKR.png
 

@@ -3,7 +3,7 @@ layout: post
 title: Populists in Colorado
 date: 2020-03-27 11:00 -0700
 categories:
-  - Election Carography
+  - Election Cartography
   - SFW
 
 social-preview-image: https://i.imgur.com/Q2duyn6.png

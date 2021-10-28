@@ -53,6 +53,7 @@
         max-width: none;
         min-height: 2em;
         margin: 1ex 0 0;
+        place-content: flex-end;
 
         --button-flat-margin: 0;
     }

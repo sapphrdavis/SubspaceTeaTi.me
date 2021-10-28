@@ -7,11 +7,19 @@
  * @since 2018-09-17
  */
 
+@import url('/styles/theme-halloween.css');
+
 
 .app-bar .title {
     text-transform: none;
 }
 
+
+:root {
+    --app-bar-background-image-root: #{linear-gradient(to bottom, hsla(0deg, 0%, 100%, 6%), hsla(0deg, 0%, 0%, 14%)),
+            url("/images/app-bar-background-bottom.jpg")};
+    --app-bar-background-image: var(--app-bar-background-image-root);
+}
 
 :root {
     --font-family-title: Questrial, var(--font-family-primary);
@@ -65,13 +73,13 @@
 
 
 .app-bar {
-    background-image: linear-gradient(to bottom, hsla(0deg, 0%, 100%, 6%), hsla(0deg, 0%, 0%, 14%)), url(/images/app-bar-background-bottom.jpg);
+    background-image: var(--app-bar-background-image);
     background-blend-mode: normal, multiply;
     background-size: auto, 500px;
     background-position-y: 0, bottom;
     background-repeat: repeat-x;
     text-shadow: -1px -1px 1px hsla(0, 0%, 0%, 50%),
-                  1px  1px 1px hsla(0, 0%, 100%, 50%);
+                  1px  1px 1px hsla(0, 0%, 100%, 20%);
 
     .context-menu {
         text-shadow: none;

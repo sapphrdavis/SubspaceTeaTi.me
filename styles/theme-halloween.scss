@@ -1,0 +1,36 @@
+---
+---
+
+/* Neon Halloween */
+:root {
+    --theme-halloween-primary-color: #F4511E;
+    --theme-halloween-accent-color: #673AB7;
+    --theme-halloween-text-on-primary-color-color: #EDE7F6;
+    // --theme-halloween-text-on-accent-color-color: white;
+
+    --theme-fire-primary-color: var(--theme-halloween-primary-color);
+    --theme-fire-accent-color: var(--theme-halloween-accent-color);
+    --theme-fire-text-on-primary-color-color: var(--theme-halloween-text-on-primary-color-color);
+    --theme-fire-text-on-accent-color-color: var(--theme-halloween-text-on-accent-color-color);
+
+    --app-bar-background-image: #{var(--app-bar-background-image-root), url('images/noun_cobweb_1958761.svg')} !important;
+}
+
+.brightness-dark,
+.brightness-black {
+    --theme-halloween-primary-color: #F4511E;
+    --theme-halloween-accent-color: #673AB7;
+    --theme-halloween-text-on-primary-color-color: #FFE57F;
+    // --theme-halloween-text-on-accent-color-color: black;
+
+    --theme-fire-primary-color: var(--theme-halloween-primary-color);
+    --theme-fire-accent-color: var(--theme-halloween-accent-color);
+    --theme-fire-text-on-primary-color-color: var(--theme-halloween-text-on-primary-color-color);
+    --theme-fire-text-on-accent-color-color: var(--theme-halloween-text-on-accent-color-color);
+}
+
+
+
+.app-bar {
+    background-repeat: repeat-x, repeat-x, no-repeat !important;
+}

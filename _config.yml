@@ -53,6 +53,12 @@ sidebar:
 post-list:
     display-all-categories: true
 
+# custom-themes:
+#     -
+#         single-word-name: Halloween
+#         id: halloween
+#         stylesheet-url: /styles/theme-halloween.css
+
 default-theme:
     color: air
     brightness: light

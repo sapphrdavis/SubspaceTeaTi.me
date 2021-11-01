@@ -2,6 +2,7 @@
 layout: post
 title: United States Congressional Redistricting, 2023-2033
 date: 2021-10-28 12:35 -0600
+date-edit: 2021-11-01 12:24 -0600
 categories:
   - Election Cartography
   - SFW
@@ -24,7 +25,7 @@ To begin with, here is a map of the previous decade’s congressional districts 
 As of October 27, 2021, here is where redistricting for the United States House of Representatives stands. Six states (Alaska, Delaware, North Dakota, South Dakota, Vermont, and Wyoming) have at-large districts and so do not have a Congressional redistricting process. The other 44 will finish their processes by the 2022 midterm elections.
 
 {% include Neon-Jekyll-Components/Galleries/single-item-highlight.html
-    full='https://i.imgur.com/csI8h4R.png'
+    full='https://i.imgur.com/jKlKRdO.png'
     raised=true
     %}
 
@@ -43,5 +44,7 @@ As of October 27, 2021, here is where redistricting for the United States House 
 **October 22, 2021**: West Virginia Governor Jim Justice signs his state’s new districts into law, becoming the fifth Governor to do so. [Detailed PDF of Districts](https://www.wvlegislature.gov/legisdocs/redistricting/house/consensus_congressional.pdf) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/west-virginia/)
 
 **October 25, 2021**: Texas Governor Greg Abbott signs his state’s new districts into law, becoming the sixth Governor to do so. [Detailed PDF of Districts](https://data.capitol.texas.gov/dataset/b806b39a-4bab-4103-a66a-9c99bcaba490/resource/d46a35b1-8e37-44e3-92d7-682703a0b30b/download/planc2193_map_36x40.pdf) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/texas/)
+
+**November 1, 2021**: The Colorado Supreme Court grants approval to the state’s new districts, making Colorado the seventh state to finish redistricting. [Detailed Files of Districts](https://redistricting.colorado.gov/content/congressional-final-approved) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/colorado/ )
 
 This article will continue to update throughout the Congressional Redistricting process until all states are finished. In the meantime, you can check out [this guide from DailyKos on the process of congressional and legislative redistricting in every state](https://docs.google.com/spreadsheets/d/e/2PACX-1vQBfMtdaAHDWfdZ-SUUvbmKyE6oXLL1Tt0fBejDC1SfZK1wY3Kkmw6UiV_AFhETopm0mvo9MoMOvZEh/pubhtml?gid=1108526047) and follow [The Redistrict Network on Twitter for updates from every state](https://twitter.com/RedistrictNet).

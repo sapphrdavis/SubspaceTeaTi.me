@@ -17,7 +17,7 @@ description: Artist | Writer | Cartographer
 
 author:
     # Your name
-    name: Anna
+    name: Ana
     # URL of your avatar or profile pic (you could use your GitHub profile pic)
     avatar: https://www.gravatar.com/avatar/472c3e5e6f37d539ef9db633991dcc78?s=140px  # yamllint disable-line rule:line-length
 

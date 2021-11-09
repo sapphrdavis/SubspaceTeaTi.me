@@ -1,8 +1,18 @@
 <section class="font-menu">
     <h3>Fonts</h3>
-    <ol class="plain flex-row">
-        <li>{% include font-radio-button.html value='sans-serif' title='Sans Serif' %}</li>
-        <li>{% include font-radio-button.html value='serif' title='Serif' %}</li>
-        <li>{% include font-radio-button.html value='dyslexic' title='Dyslexic' %}</li>
-    </ol>
+
+    <section id="font-menu--family">
+        <ol class="plain flex-row">
+            <li>{% include font-radio-button.html value='sans-serif' title='Sans Serif' %}</li>
+            <li>{% include font-radio-button.html value='serif' title='Serif' %}</li>
+            <li>{% include font-radio-button.html value='dyslexic' title='Dyslexic' %}</li>
+        </ol>
+    </section>
+
+    <section id="font-menu--size">
+        <label class="row   flex-row flex-horiz-stretch"><span class="icon material-icons">format_size</span>
+            <output name="font-size" for="font-size">16</output>
+            <input type="range" alt="font size" id="font-size" name="font-size" min="5" value="16" max="48" step="1"
+                data-set-another-element-content-when-input-value-changes="output[for='font-size']"></input></label>
+    </section>
 </section>

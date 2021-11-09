@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: story
 title: Boys Being Boys
 date: 2021-11-07 16:06 -0700
 categories:

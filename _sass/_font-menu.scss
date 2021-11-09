@@ -85,6 +85,37 @@
             font-family: var(--font-family-dyslexic), serif;
         }
     }
+
+
+    .row {
+        * {
+            flex-grow: 0;
+            margin-inline: 8px;
+
+            &:first-child {
+                margin-inline-start: 0;
+            }
+
+            &:last-child {
+                margin-inline-end: 0;
+            }
+        }
+
+        input {
+            flex-grow: 1;
+        }
+    }
+
+
+    output {
+        font-family: 'B612 Mono';
+        font-weight: 700;
+    }
+
+
+    output[for="font-size"] {
+        width: 2ex;
+    }
 }
 
 

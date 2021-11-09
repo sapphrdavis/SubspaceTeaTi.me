@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: story
 title: The Land of Neon and Northern Lights
 date: 2020-01-28 09:08 -0700
 categories:

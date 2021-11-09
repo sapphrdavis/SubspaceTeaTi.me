@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: story
 title: The Witchʼs Girl
 date: 2021-10-22 02:32 -0600
 categories:

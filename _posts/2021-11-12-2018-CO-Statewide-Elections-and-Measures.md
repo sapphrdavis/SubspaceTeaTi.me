@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2018 Colorado Statewide Elections & Important Ballot Measures
-date: 2021-11-12 16:00 -0700
+date: 2021-11-12 16:38 -0700
 
 categories:
     - Election Cartography

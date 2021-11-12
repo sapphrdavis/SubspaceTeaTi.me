@@ -2,7 +2,7 @@
 layout: post
 title: United States Congressional Redistricting, 2023-2033
 date: 2021-10-28 12:35 -0600
-date-edit: 2021-11-08 14:54 -0700
+date-edit: 2021-11-12 16:42 -0700
 categories:
   - Election Cartography
   - SFW

@@ -52,6 +52,12 @@ sidebar:
 
 post-list:
     display-all-categories: true
+    sort-by:
+        date-edit:
+            direction: ascending
+            backup: date
+        date:
+            direction: ascending
 
 default-theme:
     color: air

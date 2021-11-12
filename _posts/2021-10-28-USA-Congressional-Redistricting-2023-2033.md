@@ -25,7 +25,7 @@ To begin with, here is a map of the previous decade’s congressional districts 
 As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for the United States House of Representatives stands. Six states (Alaska, Delaware, North Dakota, South Dakota, Vermont, and Wyoming) have at-large districts and so do not have a Congressional redistricting process. The other 44 will finish their processes by the 2022 midterm elections.
 
 {% include Neon-Jekyll-Components/Galleries/single-item-highlight.html
-    full='https://i.imgur.com/RmZGHzR.png'
+    full='https://i.imgur.com/31TBEcl.png'
     raised=true
     %}
 
@@ -47,11 +47,13 @@ As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for t
 
 **November 1, 2021**: The Colorado Supreme Court grants approval to the state’s new districts, making Colorado the seventh state to finish redistricting. [Detailed Files of Districts](https://redistricting.colorado.gov/content/congressional-final-approved) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/colorado/ )
 
-**November 4, 2021**: The North Carolina House and Senate approve a new congressional map which is not subject to Governor Roy Cooper. North Carolina is the ninth state to finish redistricting. [Detailed PDF of Districts](https://webservices.ncleg.gov/ViewBillDocument/2021/53269/0/S740%20First%20Edition%20-%2019%20x%2036%20Map%20w%20Incumbents) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/arkansas/)
+**November 4, 2021**: The North Carolina House and Senate approve a new congressional map which is not subject to Governor Roy Cooper. North Carolina is the eighth state to finish redistricting. [Detailed PDF of Districts](https://webservices.ncleg.gov/ViewBillDocument/2021/53269/0/S740%20First%20Edition%20-%2019%20x%2036%20Map%20w%20Incumbents) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/arkansas/)
 
-**November 4, 2021**: Alabama Governor Kay Ivey signs her state’s new districts into law, making Alabama the tenth state to finish redistricting. [Detailed Image of Districts](https://www.scribd.com/document/536587404/Alabama-congressional-map-2022#from_embed) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/alabama/)
+**November 4, 2021**: Alabama Governor Kay Ivey signs her state’s new districts into law, making Alabama the ninth state to finish redistricting. [Detailed Image of Districts](https://www.scribd.com/document/536587404/Alabama-congressional-map-2022#from_embed) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/alabama/)
 
-**November 4, 2021**: Iowa Governor Kim Reynolds signs her state’s new districts into law, making Iowa the eleventh state to finish redistricting. [Detailed PDF of Districts](https://gis.legis.iowa.gov/Plan2/Plan2Statewide22x34.pdf) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/iowa/)
+**November 4, 2021**: Iowa Governor Kim Reynolds signs her state’s new districts into law, making Iowa the tenth state to finish redistricting. [Detailed PDF of Districts](https://gis.legis.iowa.gov/Plan2/Plan2Statewide22x34.pdf) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/iowa/)
+
+**November 12, 2021**: The Montana Districting and Apportionment Commission approves a plan for the state's new congressional districts, making Montana the eleventh state to finish redistricting. [Detailed Online Map of Districts](https://app.mydistricting.com/legdistricting/comments/plan/33/23) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/montana/)
 
 
 This article will continue to update throughout the Congressional Redistricting process until all states are finished. In the meantime, you can check out [this guide from DailyKos on the process of congressional and legislative redistricting in every state](https://docs.google.com/spreadsheets/d/e/2PACX-1vQBfMtdaAHDWfdZ-SUUvbmKyE6oXLL1Tt0fBejDC1SfZK1wY3Kkmw6UiV_AFhETopm0mvo9MoMOvZEh/pubhtml?gid=1108526047) and follow [The Redistrict Network on Twitter for updates from every state](https://twitter.com/RedistrictNet).

@@ -1,0 +1,5 @@
+{%- for post in include.posts %}
+{{ forloop.index }}. {{ post.title }}
+    - {{ post.date }}
+    - {{ post.date-edit }}
+{% endfor %}

@@ -1,5 +1,5 @@
 #
-# This file contains configuration flags to customize your site
+# This file contains basic configuration to customize your site
 #
 
 # Name of your site (displayed in the header)
@@ -7,12 +7,7 @@ name: Subspace Tea Time
 # Name of your site (displayed in the tab)
 title: Subspace Tea Time
 
-# emergency-banners:
-#     -
-#         include: emergency-banners/criminal-harrassing-abuser.html
-#         classes: caution-banner
-
-# Short bio or description (displayed in the about screen & sidebar)
+# Short bio or description (displayed in link previews & Google search results)
 description: Artist | Writer | Cartographer
 
 author:
@@ -21,18 +16,13 @@ author:
     # URL of your avatar or profile pic (you could use your GitHub profile pic)
     avatar: https://www.gravatar.com/avatar/472c3e5e6f37d539ef9db633991dcc78?s=140px  # yamllint disable-line rule:line-length
 
+
 #
-# Flags below are optional
+# Everything below is optional
 #
 
 
-# Repository info
-github:
-    username: sapphrdavis
-    repoName: SubspaceTeaTi.me
-
-
-# Sidebar configuration
+# Sidebar
 sidebar:
     headerImage:
         htmlClassNames: avatar
@@ -50,19 +40,49 @@ sidebar:
             url: /feed.xml
             materialIcon: rss_feed
 
+# Homepage
 post-list:
     display-all-categories: true
     sort-by:
-        date-edit:
+        -
+            field: date-edit
             direction: ascending
             backup: date
-        date:
+        -
+            field: date
             direction: ascending
 
+# Theme
 default-theme:
     color: air
     brightness: light
     url: https://stylesheets.bhstudios.org/assets/v2/neon/neon-air.css
+
+# emergency-banners:
+#     -
+#         include: emergency-banners/criminal-harrassing-abuser.html
+#         classes: caution-banner
+
+
+
+################################################################################
+################################################################################
+################## ========= TECHNICAL CONFIGURATION ========= #################
+################################################################################
+################################################################################
+
+
+
+
+# Your website URL (e.g. https://barryclark.github.io or https://SubspaceTeaTi.me)
+# Used for Sitemap.xml and your RSS feed
+url: https://SubspaceTeaTi.me
+
+# Repository info
+repository: sapphrdavis/SubspaceTeaTi.me
+github:
+    username: sapphrdavis
+    repoName: SubspaceTeaTi.me
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -71,10 +91,6 @@ disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2)
 # to activate tracking
 google_analytics:
-
-# Your website URL (e.g. https://barryclark.github.io or https://SapphDavis.me)
-# Used for Sitemap.xml and your RSS feed
-url: https://SubspaceTeaTi.me
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

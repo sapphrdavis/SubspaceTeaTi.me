@@ -25,7 +25,7 @@ To begin with, here is a map of the previous decade’s congressional districts 
 As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for the United States House of Representatives stands. Six states (Alaska, Delaware, North Dakota, South Dakota, Vermont, and Wyoming) have at-large districts and so do not have a Congressional redistricting process. The other 44 will finish their processes by the 2022 midterm elections.
 
 {% include Neon-Jekyll-Components/Galleries/single-item-highlight.html
-    full='https://i.imgur.com/DirDLDt.png'
+    full='https://i.imgur.com/vTLpoHZ.png'
     raised=true
     %}
 
@@ -59,7 +59,9 @@ As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for t
 
 **November 12, 2021**: Idaho's Commission for Reapportionment files its congressional plan with the Secretary of State, making Idaho the thirteenth state to finish redistricting. [Detailed Online Map of Districts](https://idaho.maps.arcgis.com/apps/instant/basic/index.html?appid=981fc5c6418d46688f35fed4e09844ce) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/idaho/)
 
-**November 16, 2021**: Governor Steve Sisolak signs his state's new district into law, making Nevada the fourteenth state to finish redistricting. [Detailed Online Map of Districts](https://redistricting.leg.state.nv.us/legdistricting/comments/plan/800/8) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/nevada/)
+**November 16, 2021**: Nevada Governor Steve Sisolak signs his state's new districts into law, making Nevada the fourteenth state to finish redistricting. [Detailed Online Map of Districts](https://redistricting.leg.state.nv.us/legdistricting/comments/plan/800/8) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/nevada/)
+
+**November 20, 2021**: Ohio Governor Mike DeWine signs his state's new districts into law, making Ohio the fifteenth state to finish redistricting. However, due to Ohio redistricting law this map will only be in effect for the next four years. [Detailed PDFs of Districts](https://ohiosenate.gov/committees/local-government-and-elections/document-archive) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/ohio/)
 
 
 This article will continue to update throughout the Congressional Redistricting process until all states are finished. In the meantime, you can check out [this guide from DailyKos on the process of congressional and legislative redistricting in every state](https://docs.google.com/spreadsheets/d/e/2PACX-1vQBfMtdaAHDWfdZ-SUUvbmKyE6oXLL1Tt0fBejDC1SfZK1wY3Kkmw6UiV_AFhETopm0mvo9MoMOvZEh/pubhtml?gid=1108526047) and follow [The Redistrict Network on Twitter for updates from every state](https://twitter.com/RedistrictNet).

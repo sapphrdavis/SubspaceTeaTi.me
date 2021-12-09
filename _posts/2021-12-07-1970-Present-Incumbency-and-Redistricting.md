@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 2020 Colorado Statewide Elections & Referendums
-date: 2021-12-07 00:00 -0700
+title: Incumbency and Redistricting, 1970-Present
+date: 2021-12-09 15:15 -0700
 categories:
     - Election Cartography
     - SFW
@@ -248,184 +248,96 @@ To give a history of the ways that redistricting changed the makeup of Congress,
 
 
 ### Newly created seats ###
-
 1.  Arizona 5
-
 2.  California 44
-
 3.  California 45
-
 4.  Colorado 6
-
 5.  Florida 16
-
 6.  Florida 17
-
 7.  Florida 18
-
 8.  Florida 19
-
 9.  Nevada 1
-
 10.  Nevada 2
-
 11.  New Mexico 3
-
 12.  Oregon 5
-
 13.  South Dakota At-Large
-
 14.  Tennessee 9
-
 15.  Texas 25
-
 16.  Texas 26
-
 17.  Texas 27
-
 18.  Utah 3
-
 19.  Washington 8
 
 
-
-
 ### Seats to be eliminated ###
-
 1.  Illinois 23
-
 2.  Illinois 24
-
 3.  Indiana 11
-
 4.  Massachusetts 12
-
 5.  Michigan 19
-
 6.  Missouri 10
-
 7.  Nevada At-Large
-
 8.  New Jersey 15
-
 9.  New York 35
-
 10.  New York 36
-
 11.  New York 37
-
 12.  New York 38
-
 13.  New York 39
-
 14.  Ohio 22
-
 15.  Ohio 23
-
 16.  Pennsylvania 24
-
 17.  Pennsylvania 25
-
 18.  South Dakota 1
-
 19.  South Dakota 2
 
 
-
-
 ### Democratic Retirements ###
-
 1.  California 5: John L. Burton, was succeeded by Barbara Boxer (with district being renumbered as California 6).
-
 2.  Connecticut 6: Toby Moffett, to run for U.S. senator, was succeeded by Nancy Johnson.
-
 3.  Georgia 1: Ronald 'Bo' Ginn, to run for Governor of Georgia, was succeeded by Lindsay Thomas.
-
 4.  Indiana 2: Floyd Fithian who ran for U.S. senator.
-
 5.  Michigan 17: William M. Brodhead, was succeeded by Sander Levin.
-
 6.  Michigan 18: James J. Blanchard who ran for Governor of Michigan.
-
 7.  Mississippi 2: David R. Bowen, was succeeded by Webb Franklin.
-
 8.  Missouri 5: Richard Bolling, was succeeded by Alan Wheat.
-
 9.  Nevada at-large: James David Santini, to run for U.S. senator, was succeeded by Barbara Vucanovich (with district being renumbered as Nevada 2).
-
 10.  New York 12: Shirley Chisholm, was succeeded by Major Owens.
-
 11.  New York 22: Jonathan Brewster Bingham.
-
 12.  North Carolina 2: Lawrence H. Fountain, was succeeded by Tim Valentine.
-
 13.  Pennsylvania 17: Allen E. Ertel, to run for Governor of Pennsylvania, was succeeded by George Gekas.
-
 14.  South Carolina 5: Kenneth Lamar Holland, was succeeded by John Spratt.
-
 15.  Texas 5: Jim Mattox, to run for Attorney General of Texas, was succeeded by John Wiley Bryant.
-
 16.  Texas 16: Richard C. White, was succeeded by Ronald D. Coleman.
-
 17.  West Virginia 1: Bob Mollohan, was succeeded by Alan Mollohan.
-
 18.  Wisconsin 5: Henry Reuss, was succeeded by Jim Moody.
 
 
-
-
 ### Republican Retirements ###
-
 1.  Arizona 1: John Jacob Rhodes, was succeeded by John McCain.
-
 2.  California 12: Pete McCloskey, to run for U.S. senator, was succeeded by Ed Zschau.
-
 3.  California 20: Barry Goldwater Jr., who ran for U.S. senator.
-
 4.  California 27: Bob Dornan, to run for U.S. senator, was succeeded by Mel Levine.
-
 5.  California 43: Clair Burgener, was succeeded by Ron Packard.
-
 6.  Florida 10: Louis A. Bafalis, to run for Governor of Florida, was succeeded by Tom Lewis (with district being renumbered as Florida 12).
-
 7.  Illinois 13: Robert McClory.
-
 8.  Kansas 2: James Edmund Jeffries, was succeeded by Jim Slattery.
-
 9.  Maine 1: David F. Emery, to run for U.S. senator, was succeeded by John R. McKernan Jr..
-
 10.  New Jersey 5: Millicent Fenwick, who ran for U.S. senator.
-
 11.  New York 3: Gregory W. Carman.
-
 12.  New York 31: Donald J. Mitchell, was succeeded by Sherwood Boehlert (with district being renumbered as New York 25).
-
 13.  Ohio 7: Bud Brown, to run for Governor of Ohio, was succeeded by Mike DeWine.
-
 14.  Ohio 11: J. William Stanton.
-
 15.  Ohio 17: Jean Spencer Ashbrook.
-
 16.  Pennsylvania 24: Marc L. Marks, was succeeded by Tom Ridge (with district being renumbered as Pennsylvania 21).
-
 17.  Tennessee 6: Robin Beard, to run for U.S. senator, was succeeded by Don Sundquist (with district being renumbered as Tennessee 7).
-
 18.  Texas 3: James M. Collins, to run for U.S. senator, was succeeded by Steve Bartlett.
-
 19.  Virginia 1: Paul S. Trible Jr., to run for U.S. senator, was succeeded by Herbert H. Bateman.
-
 20.  Virginia 6: M. Caldwell Butler, was succeeded by Jim Olin.
-
 21.  West Virginia 2: Cleve Benedict, to run for U.S. senator, was succeeded by Harley O. Staggers Jr..
 
 
-
-
 ### Vacancies ###
-
 1.  None
-
-
 
 
 ### Open Seats ###
@@ -478,9 +390,9 @@ To give a history of the ways that redistricting changed the makeup of Congress,
 
 ## 102nd Congress, 1991-1993 ##
 
-![](https://lh5.googleusercontent.com/tk_QdMKmHaqutKkfxBc8szZAj7WBh1Dv1s6WQdxbaobNDzy3vcB6w2Iq4QEoDw-WJ4vtbGNwrCzpKx9v7Oy0hh6kYf8e3z1Ym4D2vhlXGenAoglHQCdDt5sbWj_PmNYAwe_OTHva)
-
-([Image Link](https://i.imgur.com/dtlLf8y.png))
+{% include single-image.html
+    full='https://i.imgur.com/dtlLf8y.png'
+    %}
 
 
 ### Newly created seats ###
@@ -666,10 +578,9 @@ To give a history of the ways that redistricting changed the makeup of Congress,
 
 ## 107th Congress, 2001-2003 ##
 
-![](https://lh4.googleusercontent.com/gAp_Q4PjEK684DubKGwD6dAs4b3F-LzTSaMamS2NTt_9IfXlvRNh9IbHwGvuVHZB77FajU4bmBn3SZLUXZ8ziUqDdsWfyIIJqIEK1nM5BfkEe6p7puUrgDDFSUh4Ffi67xkuxRwq)
-
-([Image Link](https://i.imgur.com/FawGjRa.png))
-
+{% include single-image.html
+    full='https://i.imgur.com/FawGjRa.png'
+    %}
 
 
 ### Newly created seats ###
@@ -788,10 +699,9 @@ To give a history of the ways that redistricting changed the makeup of Congress,
 
 ## 112th Congress, 2011-2013 ##
 
-![](https://lh3.googleusercontent.com/oOdFBHWLJRJL1ZtMWSTUTN2wGalpdCyl479H2KgEz9CBb8sxt-_rEwC66hOEw1Tsf-LEIygORd8vkDEHiUnAX_a11zpW7_mQuvI0rkJNHzAsYZNyKNAY4VuYrC9i5pnMeexUhW0I)
-
-([Image Link](https://i.imgur.com/yDGqlwl.png))
-
+{% include single-image.html
+    full='https://i.imgur.com/yDGqlwl.png'
+    %}
 
 
 ### Newly created seats ###

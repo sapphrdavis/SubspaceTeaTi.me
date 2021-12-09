@@ -6,7 +6,7 @@ categories:
     - Election Cartography
     - SFW
 
-social-preview-image: https://i.imgur.com/cRzu0lR.png
+social-preview-image: https://i.imgur.com/9poI3uc.png
 ---
 
 Redistricting cycles for the United States House of Representatives have historically been times of great change in the composition of Congress. As districts are redrawn according to law, some incumbents get drawn into more competitive districts, drawn in with another incumbent, or find their new district not right for them. This has led to cycles which result in many retirements, vacancies, and the defeat of incumbents in primaries or general elections.
@@ -14,7 +14,7 @@ Redistricting cycles for the United States House of Representatives have histori
 As the redistricting processes come to an end in many states or start up in others, I will use this article to keep track of the ways which Congress will change in the future with retirements, incumbents drawn together, vacancies, and more. As of [today’s date] here is where things stand in the new districts for 2022.
 
 {% include single-image.html
-    full='https://i.imgur.com/cRzu0lR.png'
+    full='https://i.imgur.com/9poI3uc.png'
     %}
 
 

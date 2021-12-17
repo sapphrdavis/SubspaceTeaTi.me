@@ -28,7 +28,7 @@
     }
 
     ul, ol {
-        li {
+        &:not(.plain) li {
             margin-left: 3em;
             margin-block-end: 0.5ex;
         }
@@ -79,6 +79,17 @@
         border-inline-start: 2px solid var(--semitransparent-grey);
         margin: 2em;
         padding: 1em;
+
+        blockquote {
+            margin-inline-start: 1ex;
+        }
+
+        &>ol,
+        &>ul {
+            &>li {
+                margin-inline-start: 2em;
+            }
+        }
     }
 
     hr {

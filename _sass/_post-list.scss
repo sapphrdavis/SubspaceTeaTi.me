@@ -33,6 +33,7 @@
     .date {
         opacity: 0.5;
         font-size: 80%;
+        padding: var(--button-flat-padding);
     }
 
     .content-warning {
@@ -52,8 +53,13 @@
     footer {
         max-width: none;
         min-height: 2em;
-        margin: 1ex 0 0;
+        margin: 2ex 0 0;
 
         --button-flat-margin: 0;
+
+        .date,
+        .button {
+            flex-shrink: 0;
+        }
     }
 }

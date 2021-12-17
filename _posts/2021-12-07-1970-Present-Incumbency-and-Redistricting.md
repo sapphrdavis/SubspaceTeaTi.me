@@ -6,7 +6,7 @@ categories:
     - Election Cartography
     - SFW
 
-social-preview-image: https://i.imgur.com/9poI3uc.png
+social-preview-image: https://i.imgur.com/CJmZlfT.png
 ---
 
 Redistricting cycles for the United States House of Representatives have historically been times of great change in the composition of Congress. As districts are redrawn according to law, some incumbents get drawn into more competitive districts, drawn in with another incumbent, or find their new district not right for them. This has led to cycles which result in many retirements, vacancies, and the defeat of incumbents in primaries or general elections.
@@ -14,7 +14,7 @@ Redistricting cycles for the United States House of Representatives have histori
 As the redistricting processes come to an end in many states or start up in others, I will use this article to keep track of the ways which Congress will change in the future with retirements, incumbents drawn together, vacancies, and more. As of [today’s date] here is where things stand in the new districts for 2022.
 
 {% include single-image.html
-    full='https://i.imgur.com/9poI3uc.png'
+    full='https://i.imgur.com/CJmZlfT.png'
     %}
 
 
@@ -44,22 +44,23 @@ As the redistricting processes come to an end in many states or start up in othe
 1.  Arizona 2: Ann Kirkpatrick is retiring.
 2.  California 14: Jackie Speier is retiring.
 3.  California 37: Karen Bass is retiring to run for mayor of Los Angeles.
-4.  Florida 10: Val Demings is retiring to run for U.S. senator.
-5.  Florida 13: Charlie Crist is retiring to run for governor of Florida.
-6.  Illinois 17: Cheri Bustos is retiring.
-7.  Kentucky 3: John Yarmuth is retiring.
-8.  Maryland 4: Anthony G. Brown is retiring to run for attorney general of Maryland.
-9.  New York 3: Thomas Suozzi is retiring to run for governor of New York.
-10.  North Carolina 1: G. K. Butterfield is retiring.
-11.  North Carolina 4: David Price is retiring.
-12.  Ohio 13: Tim Ryan is retiring to run for U.S. senator.
-13.  Oregon 4: Peter DeFazio is retiring.
-14.  Pennsylvania 17: Conor Lamb is retiring to run for U.S. senator.
-15.  Pennsylvania 18: Mike Doyle is retiring.
-16.  Texas 30: Eddie Bernice Johnson is retiring.
-17.  Texas 34: Filemon Vela Jr. is retiring.
-18.  Vermont At-Large: Peter Welch is retiring to run for U.S. senator.
-19.  Wisconsin 3: Ron Kind is retiring.
+4.  California 47: Alan Lowenthal is retiring.
+5.  Florida 10: Val Demings is retiring to run for U.S. senator.
+6.  Florida 13: Charlie Crist is retiring to run for governor of Florida.
+7.  Illinois 17: Cheri Bustos is retiring.
+8.  Kentucky 3: John Yarmuth is retiring.
+9.  Maryland 4: Anthony G. Brown is retiring to run for attorney general of Maryland.
+10.  New York 3: Thomas Suozzi is retiring to run for governor of New York.
+11.  North Carolina 1: G. K. Butterfield is retiring.
+12.  North Carolina 4: David Price is retiring.
+13.  Ohio 13: Tim Ryan is retiring to run for U.S. senator.
+14.  Oregon 4: Peter DeFazio is retiring.
+15.  Pennsylvania 17: Conor Lamb is retiring to run for U.S. senator.
+16.  Pennsylvania 18: Mike Doyle is retiring.
+17.  Texas 30: Eddie Bernice Johnson is retiring.
+18.  Texas 34: Filemon Vela Jr. is retiring.
+19.  Vermont At-Large: Peter Welch is retiring to run for U.S. senator.
+20.  Wisconsin 3: Ron Kind is retiring.
 
 
 ### Republican Retirements ###

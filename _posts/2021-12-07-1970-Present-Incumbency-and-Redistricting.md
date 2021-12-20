@@ -45,22 +45,24 @@ As the redistricting processes come to an end in many states or start up in othe
 2.  California 14: Jackie Speier is retiring.
 3.  California 37: Karen Bass is retiring to run for mayor of Los Angeles.
 4.  California 47: Alan Lowenthal is retiring.
-5.  Florida 10: Val Demings is retiring to run for U.S. senator.
-6.  Florida 13: Charlie Crist is retiring to run for governor of Florida.
-7.  Illinois 17: Cheri Bustos is retiring.
-8.  Kentucky 3: John Yarmuth is retiring.
-9.  Maryland 4: Anthony G. Brown is retiring to run for attorney general of Maryland.
-10.  New York 3: Thomas Suozzi is retiring to run for governor of New York.
-11.  North Carolina 1: G. K. Butterfield is retiring.
-12.  North Carolina 4: David Price is retiring.
-13.  Ohio 13: Tim Ryan is retiring to run for U.S. senator.
-14.  Oregon 4: Peter DeFazio is retiring.
-15.  Pennsylvania 17: Conor Lamb is retiring to run for U.S. senator.
-16.  Pennsylvania 18: Mike Doyle is retiring.
-17.  Texas 30: Eddie Bernice Johnson is retiring.
-18.  Texas 34: Filemon Vela Jr. is retiring.
-19.  Vermont At-Large: Peter Welch is retiring to run for U.S. senator.
-20.  Wisconsin 3: Ron Kind is retiring.
+5.  Florida 7: Stephanie Murphy is retiring.
+6.  Florida 10: Val Demings is retiring to run for U.S. senator.
+7.  Florida 13: Charlie Crist is retiring to run for governor of Florida.
+8.  Illinois 17: Cheri Bustos is retiring.
+9.  Kentucky 3: John Yarmuth is retiring.
+10.  Maryland 4: Anthony G. Brown is retiring to run for attorney general of Maryland.
+11.  New Jersey 8: Albio Sires is retiring.
+12.  New York 3: Thomas Suozzi is retiring to run for governor of New York.
+13.  North Carolina 1: G. K. Butterfield is retiring.
+14.  North Carolina 4: David Price is retiring.
+15.  Ohio 13: Tim Ryan is retiring to run for U.S. senator.
+16.  Oregon 4: Peter DeFazio is retiring.
+17.  Pennsylvania 17: Conor Lamb is retiring to run for U.S. senator.
+18.  Pennsylvania 18: Mike Doyle is retiring.
+19.  Texas 30: Eddie Bernice Johnson is retiring.
+20.  Texas 34: Filemon Vela Jr. is retiring.
+21.  Vermont At-Large: Peter Welch is retiring to run for U.S. senator.
+22.  Wisconsin 3: Ron Kind is retiring.
 
 
 ### Republican Retirements ###

@@ -7,7 +7,7 @@ categories:
   - Election Cartography
   - SFW
 
-social-preview-image: https://i.imgur.com/r3xp9kN.png
+social-preview-image: https://i.imgur.com/MfmjgD5.png
 ---
 
 Hello, all. This is an article concerning the decennial redistricting of the United States Congressional Districts, whose members make up the House of Representatives. This process involves all 50 states in the United States going through their own process to pass new congressional district boundaries in accordance with law. This redistricting must be done due to the results of the decennial census, and so redistricting occurs one to two years after the census takes place. The current redistricting cycle is taking place in 2021 and will continue through 2022 using 2020 US Census data so the districts may be ready for the 2022 midterms and legally go into effect in 2023.
@@ -25,7 +25,7 @@ To begin with, here is a map of the previous decade’s congressional districts 
 As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for the United States House of Representatives stands. Six states (Alaska, Delaware, North Dakota, South Dakota, Vermont, and Wyoming) have at-large districts and so do not have a Congressional redistricting process. The other 44 will finish their processes by the 2022 midterm elections.
 
 {% include Neon-Jekyll-Components/Galleries/single-item-highlight.html
-    full='https://i.imgur.com/r3xp9kN.png'
+    full='https://i.imgur.com/MfmjgD5.png'
     raised=true
     %}
 
@@ -74,6 +74,8 @@ As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for t
 **December 17, 2021**: New Mexico Governor Michelle Lujan Grisham signs her state's new districts into law, making New Mexico the twentieth state to finish redistricting. [Detailed Map of Districts](https://www.nmlegis.gov/Redistricting2021/Maps_And_Data?ID202=221711.1) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/new-mexico/)
 
 **December 22, 2021**: Arizona's Independent Redistricting Commission approves a plan for the state's congressional districts, making Arizona the twenty-first state to finish redistricting. [Detailed Files and Maps of Districts](https://redistricting-irc-az.hub.arcgis.com/pages/final-draft-maps) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/arizona/)
+
+**December 22, 2021**: New Jersey's redistricting process finishes behind closed doors as tiebreaker New Jersey Supreme Court Justice John Wallace chooses the Democratic delegation's map, making New Jersey the twenty-second state to finish redistricting. [Detailed PDF Map of Districts](https://www.njredistrictingcommission.org/documents/2021/Maps2021/NJCD_2021_ADOPTED_DEC22.pdf) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/new-jersey/)
 
 
 This article will continue to update throughout the Congressional Redistricting process until all states are finished. In the meantime, you can check out [this guide from DailyKos on the process of congressional and legislative redistricting in every state](https://docs.google.com/spreadsheets/d/e/2PACX-1vQBfMtdaAHDWfdZ-SUUvbmKyE6oXLL1Tt0fBejDC1SfZK1wY3Kkmw6UiV_AFhETopm0mvo9MoMOvZEh/pubhtml?gid=1108526047) and follow [The Redistrict Network on Twitter for updates from every state](https://twitter.com/RedistrictNet).

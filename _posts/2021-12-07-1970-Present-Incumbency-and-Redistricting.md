@@ -6,7 +6,7 @@ categories:
     - Election Cartography
     - SFW
 
-social-preview-image: https://i.imgur.com/gUataYF.png
+social-preview-image: https://i.imgur.com/ycf2oUg.png
 ---
 
 Redistricting cycles for the United States House of Representatives have historically been times of great change in the composition of Congress. As districts are redrawn according to law, some incumbents get drawn into more competitive districts, drawn in with another incumbent, or find their new district not right for them. This has led to cycles which result in many retirements, vacancies, and the defeat of incumbents in primaries or general elections.
@@ -14,7 +14,7 @@ Redistricting cycles for the United States House of Representatives have histori
 As the redistricting processes come to an end in many states or start up in others, I will use this article to keep track of the ways which Congress will change in the future with retirements, incumbents drawn together, vacancies, and more. As of [today’s date] here is where things stand in the new districts for 2022.
 
 {% include single-image.html
-    full='https://i.imgur.com/gUataYF.png'
+    full='https://i.imgur.com/ycf2oUg.png'
     %}
 
 
@@ -90,24 +90,25 @@ As the redistricting processes come to an end in many states or start up in othe
 1.  California 5
 2.  Colorado 8        
 3.  Illinois 13        
-4.  Montana 1        
-5.  Oregon 6        
-6.  North Carolina 4        
-7.  North Carolina 14        
+4.  Montana 1                
+5.  North Carolina 4        
+6.  North Carolina 14  
+7.  Oregon 6      
 8.  Texas 8        
 9.  Texas 15        
 10.  Texas 35        
 
 
 ### Incumbents drawn together ###
-1.  California 42: Lucille Roybal-Allard (D) and Alan Lowenthal (D).
+1.  California 42: Lucille Roybal-Allard (D - Retiring) and Alan Lowenthal (D - Retiring).
 2.  Illinois 6: Marie Newman (D) and Sean Casten (D).
 3.  Illinois 12: Mike Bost (R) and Mary E. Miller (R).
-4.  Illinois 16: Adam Kizinger (R - Retired) and Darin LaHood (R).
-5.  Ohio 6: Bill Johnson (R) and Tim Ryan (D - Retired).
+4.  Illinois 16: Adam Kizinger (R - Retiring) and Darin LaHood (R).
+5.  Michigan 3: Bill Huizenga (R) and Peter Meijer (R).
 6.  North Carolina 11: Kathy E. Manning (D) and Virginia Foxx (R).
-7.  Texas 34: Filemon Vela Jr. (D - Retired) and Vicente Gonzalez (D).
-8.  West Virginia 2: David McKinley (R) and Alex Mooney (R).
+7.  Ohio 6: Bill Johnson (R) and Tim Ryan (D - Retiring).
+8.  Texas 34: Filemon Vela Jr. (D - Retiring) and Vicente Gonzalez (D).
+9.  West Virginia 2: David McKinley (R) and Alex Mooney (R).
 
 
 

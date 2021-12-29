@@ -6,7 +6,7 @@ categories:
     - Election Cartography
     - SFW
 
-social-preview-image: https://i.imgur.com/X7ZkWrw.png
+social-preview-image: https://i.imgur.com/DAchDCJ.png
 ---
 
 Redistricting cycles for the United States House of Representatives have historically been times of great change in the composition of Congress. As districts are redrawn according to law, some incumbents get drawn into more competitive districts, drawn in with another incumbent, or find their new district not right for them. This has led to cycles which result in many retirements, vacancies, and the defeat of incumbents in primaries or general elections.
@@ -14,7 +14,7 @@ Redistricting cycles for the United States House of Representatives have histori
 As the redistricting processes come to an end in many states or start up in others, I will use this article to keep track of the ways which Congress will change in the future with retirements, incumbents drawn together, vacancies, and more. As of [today’s date] here is where things stand in the new districts for 2022.
 
 {% include single-image.html
-    full='https://i.imgur.com/X7ZkWrw.png'
+    full='https://i.imgur.com/DAchDCJ.png'
     %}
 
 
@@ -95,12 +95,9 @@ As the redistricting processes come to an end in many states or start up in othe
 6.  North Carolina 4        
 7.  North Carolina 14  
 8.  Oregon 6      
-9.  Texas 8        
-10.  Texas 15        
-11.  Texas 35
-12.  Virginia 2
-13.  Virginia 7
-14.  Virginia 9        
+9.  Texas 15        
+10.  Texas 35        
+11.  Texas 38       
 
 
 ### Incumbents drawn together ###
@@ -113,10 +110,7 @@ As the redistricting processes come to an end in many states or start up in othe
 7.  North Carolina 11: Kathy E. Manning (D) and Virginia Foxx (R).
 8.  Ohio 6: Bill Johnson (R) and Tim Ryan (D - Retiring).
 9.  Texas 34: Filemon Vela Jr. (D - Retiring) and Vicente Gonzalez (D).
-10.  Virginia 1: Rob Wittman (R) and Abigail Spanberger (D).
-11.  Virginia 2: Elaine Luria (D) and Bobby Scott (D).
-12.  Virginia 6: Ben Cline (R) and Morgan Griffith (R).
-13.  West Virginia 2: David McKinley (R) and Alex Mooney (R).
+10.  West Virginia 2: David McKinley (R) and Alex Mooney (R).
 
 
 

@@ -16,6 +16,12 @@ As the redistricting processes come to an end in many states or start up in othe
 {% include single-image.html
     full='https://i.imgur.com/JHzuPEX.png'
     %}
+    
+For a point of comparison, here is how the same incumbency looks on the old districts used for the 117th Congress (2021-2023).
+
+{% include single-image.html
+    full='https://i.imgur.com/PQojkTm.png'
+    %}
 
 
 ### Newly created seats ###

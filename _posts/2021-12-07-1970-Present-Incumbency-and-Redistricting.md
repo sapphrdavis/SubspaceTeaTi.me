@@ -95,7 +95,7 @@ For a point of comparison, here is how the same incumbency looks on the old dist
 
 
 ### Open Seats ###
-1.  California 5
+1.  California 3
 2.  Colorado 8
 3.  Georgia 6        
 4.  Illinois 13

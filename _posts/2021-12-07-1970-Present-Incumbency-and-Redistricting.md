@@ -91,7 +91,7 @@ For a point of comparison, here is how the same incumbency looks on the old dist
 
 ### Vacancies ###
 1.  Florida 20: Special election to be held on January 11, 2022.
-2.  California 22: Devin Nunes to resign on December 31, 2021, and special election date to be determined.
+2.  California 22: Devin Nunes resigned on December 31, 2021, and special election to be held on June 7, 2022.
 
 
 
@@ -122,6 +122,7 @@ For a point of comparison, here is how the same incumbency looks on the old dist
 9.  Ohio 6: Bill Johnson (R) and Tim Ryan (D - Retiring).
 10.  Texas 34: Filemon Vela Jr. (D - Retiring) and Vicente Gonzalez (D).
 11.  West Virginia 2: David McKinley (R) and Alex Mooney (R).
+
 
 
 

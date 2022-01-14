@@ -6,7 +6,7 @@ categories:
     - Election Cartography
     - SFW
 
-social-preview-image: https://i.imgur.com/opb29PP.png
+social-preview-image: https://i.imgur.com/H2s0zLR.png
 ---
 
 Redistricting cycles for the United States House of Representatives have historically been times of great change in the composition of Congress. As districts are redrawn according to law, some incumbents get drawn into more competitive districts, drawn in with another incumbent, or find their new district not right for them. This has led to cycles which result in many retirements, vacancies, and the defeat of incumbents in primaries or general elections.
@@ -14,13 +14,13 @@ Redistricting cycles for the United States House of Representatives have histori
 As the redistricting processes come to an end in many states or start up in others, I will use this article to keep track of the ways which Congress will change in the future with retirements, incumbents drawn together, vacancies, and more. As of [today’s date] here is where things stand in the new districts for 2022.
 
 {% include single-image.html
-    full='https://i.imgur.com/opb29PP.png'
+    full='https://i.imgur.com/H2s0zLR.png'
     %}
     
 For a point of comparison, here is how the same incumbency looks on the old districts used for the 117th Congress (2021-2023).
 
 {% include single-image.html
-    full='https://i.imgur.com/mafyLDs.png'
+    full='https://i.imgur.com/VeCqG2J.png'
     %}
 
 
@@ -79,18 +79,20 @@ For a point of comparison, here is how the same incumbency looks on the old dist
 1.  Alabama 5: Mo Brooks is retiring to run for U.S. senator.
 2.  Georgia 10: Jody Hice is retiring to run for secretary of state of Georgia.
 3.  Illinois 16: Adam Kinzinger is retiring.
-4.  Missouri 4: Vicky Hartzler is retiring to run for U.S. senator.
-5.  Missouri 7: Billy Long is retiring to run for U.S. senator.
-6.  New York 1: Lee Zeldin is retiring to run for governor of New York.
-7.  New York 23: Tom Reed is retiring.
-8.  North Carolina 13: Ted Budd is retiring to run for U.S. senator. (Now in North Carolina 7.)
-9.  Ohio 16: Anthony Gonzalez is retiring. (Now in Ohio 13.)
-10.  Texas 1: Louie Gohmert is retiring to run for attorney general of Texas.
-11.  Texas 8: Kevin Brady is retiring. (Now in Texas 2.)
+4.  Indiana 9: Trey Hollingsworth is retiring.
+5.  Missouri 4: Vicky Hartzler is retiring to run for U.S. senator.
+6.  Missouri 7: Billy Long is retiring to run for U.S. senator.
+7.  New York 1: Lee Zeldin is retiring to run for governor of New York.
+8.  New York 23: Tom Reed is retiring.
+9.  New York 24: John Katko is retiring.
+10.  North Carolina 13: Ted Budd is retiring to run for U.S. senator. (Now in North Carolina 7.)
+11.  Ohio 16: Anthony Gonzalez is retiring. (Now in Ohio 13.)
+12.  Texas 1: Louie Gohmert is retiring to run for attorney general of Texas.
+13.  Texas 8: Kevin Brady is retiring. (Now in Texas 2.)
 
 
 ### Vacancies ###
-1.  Florida 20: Special election to be held on January 11, 2022.
+1.  Florida 20: Special election was held on January 11, 2022, and resulted in the victory of Democrat Sheila Cherfilus-McCormick, who has yet to be seated.
 2.  California 22: Devin Nunes resigned on December 31, 2021, and special election to be held on June 7, 2022.
 
 
@@ -119,9 +121,8 @@ For a point of comparison, here is how the same incumbency looks on the old dist
 6.  Michigan 4: Bill Huizenga (R) and Fred Upton (R).
 7.  Michigan 11: Andy Levin (D) and Haley Stevens (D).
 8.  North Carolina 11: Kathy E. Manning (D) and Virginia Foxx (R).
-9.  Ohio 6: Bill Johnson (R) and Tim Ryan (D - Retiring).
-10.  Texas 34: Filemon Vela Jr. (D - Retiring) and Vicente Gonzalez (D).
-11.  West Virginia 2: David McKinley (R) and Alex Mooney (R).
+9.  Texas 34: Filemon Vela Jr. (D - Retiring) and Vicente Gonzalez (D).
+10.  West Virginia 2: David McKinley (R) and Alex Mooney (R).
 
 
 

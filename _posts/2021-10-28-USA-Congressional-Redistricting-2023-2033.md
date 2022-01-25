@@ -93,5 +93,7 @@ As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for t
 
 **January 24, 2022**: Mississippi Governor Tate Reeves signs his state's new districts into law, making Mississippi the twenty-ninth state to finish its redistricting, though the twenty-eighth to be finalzed after Ohio's was vetoed. [Detailed Map of Districts](https://www.maris.state.ms.us/HTML/Redistricting/Proposed/Maps/MS_ProposedCongress_HB384p.pdf) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/mississippi/)
 
+**January 24, 2022**: A federal court strikes down Alabama's Congressional Map, removing Alabama's new districts and taking over the map drawing process.
+
 
 This article will continue to update throughout the Congressional Redistricting process until all states are finished. In the meantime, you can check out [this guide from DailyKos on the process of congressional and legislative redistricting in every state](https://docs.google.com/spreadsheets/d/e/2PACX-1vQBfMtdaAHDWfdZ-SUUvbmKyE6oXLL1Tt0fBejDC1SfZK1wY3Kkmw6UiV_AFhETopm0mvo9MoMOvZEh/pubhtml?gid=1108526047) and follow [The Redistrict Network on Twitter for updates from every state](https://twitter.com/RedistrictNet).

@@ -7,7 +7,7 @@ categories:
   - Election Cartography
   - SFW
 
-social-preview-image: https://i.imgur.com/iTh3MCz.png
+social-preview-image: https://i.imgur.com/ty9H8Ls.png
 ---
 
 Hello, all. This is an article concerning the decennial redistricting of the United States Congressional Districts, whose members make up the House of Representatives. This process involves all 50 states in the United States going through their own process to pass new congressional district boundaries in accordance with law. This redistricting must be done due to the results of the decennial census, and so redistricting occurs one to two years after the census takes place. The current redistricting cycle is taking place in 2021 and will continue through 2022 using 2020 US Census data so the districts may be ready for the 2022 midterms and legally go into effect in 2023.
@@ -25,7 +25,7 @@ To begin with, here is a map of the previous decade’s congressional districts 
 As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for the United States House of Representatives stands. Six states (Alaska, Delaware, North Dakota, South Dakota, Vermont, and Wyoming) have at-large districts and so do not have a Congressional redistricting process. The other 44 will finish their processes by the 2022 midterm elections.
 
 {% include Neon-Jekyll-Components/Galleries/single-item-highlight.html
-    full='https://i.imgur.com/iTh3MCz.png'
+    full='https://i.imgur.com/ty9H8Ls.png'
     raised=true
     %}
 
@@ -94,6 +94,8 @@ As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for t
 **January 24, 2022**: Mississippi Governor Tate Reeves signs his state's new districts into law, making Mississippi the twenty-ninth state to finish its redistricting, though the twenty-eighth to be finalzed after Ohio's was vetoed. [Detailed Map of Districts](https://www.maris.state.ms.us/HTML/Redistricting/Proposed/Maps/MS_ProposedCongress_HB384p.pdf) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/mississippi/)
 
 **January 24, 2022**: A federal court strikes down Alabama's Congressional Map, removing Alabama's new districts and taking over the map drawing process.
+
+**January 27, 2022**: South Carolina Governor Henry McMaster signs his state's new districts into law, making South Carolina the thirtieth state to finish its redistricting, though the twenty-eighth to be finalized after Ohio's and Alabama's were ruled against in court. [Detailed Map of Districts](https://scsenate.maps.arcgis.com/apps/webappviewer/index.html?id=d665cd0a95014301befca1b001bc9eac) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/south-carolina/)
 
 
 This article will continue to update throughout the Congressional Redistricting process until all states are finished. In the meantime, you can check out [this guide from DailyKos on the process of congressional and legislative redistricting in every state](https://docs.google.com/spreadsheets/d/e/2PACX-1vQBfMtdaAHDWfdZ-SUUvbmKyE6oXLL1Tt0fBejDC1SfZK1wY3Kkmw6UiV_AFhETopm0mvo9MoMOvZEh/pubhtml?gid=1108526047) and follow [The Redistrict Network on Twitter for updates from every state](https://twitter.com/RedistrictNet).

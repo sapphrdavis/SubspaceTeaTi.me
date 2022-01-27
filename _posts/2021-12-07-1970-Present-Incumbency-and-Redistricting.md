@@ -20,7 +20,7 @@ As the redistricting processes come to an end in many states or start up in othe
 For a point of comparison, here is how the same incumbency looks on the old districts used for the 117th Congress (2021-2023).
 
 {% include single-image.html
-    full='https://i.imgur.com/M38F8AO.png'
+    full='https://i.imgur.com/QmbcMWD.png'
     %}
 
 
@@ -71,10 +71,11 @@ For a point of comparison, here is how the same incumbency looks on the old dist
 22.  Pennsylvania 17: Conor Lamb is retiring to run for U.S. senator.
 23.  Pennsylvania 18: Mike Doyle is retiring.
 24.  Rhode Island 2: Jim Langevin is retiring.
-25.  Texas 30: Eddie Bernice Johnson is retiring.
-26.  Texas 34: Filemon Vela Jr. is retiring.
-27.  Vermont At-Large: Peter Welch is retiring to run for U.S. senator.
-28.  Wisconsin 3: Ron Kind is retiring.
+25.  Tennessee 5: Jim Cooper is retiring.
+26.  Texas 30: Eddie Bernice Johnson is retiring.
+27.  Texas 34: Filemon Vela Jr. is retiring.
+28.  Vermont At-Large: Peter Welch is retiring to run for U.S. senator.
+29.  Wisconsin 3: Ron Kind is retiring.
 
 
 ### Republican Retirements ###
@@ -94,7 +95,7 @@ For a point of comparison, here is how the same incumbency looks on the old dist
 
 
 ### Vacancies ###
-1.  California 22: Devin Nunes resigned on December 31, 2021, and special election to be held on June 7, 2022.
+1.  California 22: Devin Nunes resigned on December 31, 2021, and a special election will be held on June 7, 2022.
 
 
 

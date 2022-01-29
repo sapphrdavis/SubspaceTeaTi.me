@@ -6,7 +6,7 @@ categories:
     - Election Cartography
     - SFW
 
-social-preview-image: https://i.imgur.com/ebsNJ5P.png
+social-preview-image: https://i.imgur.com/t3dVshV.png
 ---
 
 Redistricting cycles for the United States House of Representatives have historically been times of great change in the composition of Congress. As districts are redrawn according to law, some incumbents get drawn into more competitive districts, drawn in with another incumbent, or find their new district not right for them. This has led to cycles which result in many retirements, vacancies, and the defeat of incumbents in primaries or general elections.
@@ -14,7 +14,7 @@ Redistricting cycles for the United States House of Representatives have histori
 As the redistricting processes come to an end in many states or start up in others, I will use this article to keep track of the ways which Congress will change in the future with retirements, incumbents drawn together, vacancies, and more. As of [today’s date] here is where things stand in the new districts for 2022.
 
 {% include single-image.html
-    full='https://i.imgur.com/ebsNJ5P.png'
+    full='https://i.imgur.com/t3dVshV.png'
     %}
     
 For a point of comparison, here is how the same incumbency looks on the old districts used for the 117th Congress (2021-2023).
@@ -119,7 +119,7 @@ For a point of comparison, here is how the same incumbency looks on the old dist
 1.  California 42: Lucille Roybal-Allard (D - Retiring) and Alan Lowenthal (D - Retiring).
 2.  Georgia 7: Lucy McBath (D) and Carolyn Bourdeaux (D).
 3.  Illinois 6: Marie Newman (D) and Sean Casten (D).
-4.  Illinois 12: Mike Bost (R) and Mary E. Miller (R).
+4.  Illinois 15: Rodney Davis (R) and Mary E. Miller (R).
 5.  Illinois 16: Adam Kizinger (R - Retiring) and Darin LaHood (R).
 6.  Michigan 4: Bill Huizenga (R) and Fred Upton (R).
 7.  Michigan 11: Andy Levin (D) and Haley Stevens (D).

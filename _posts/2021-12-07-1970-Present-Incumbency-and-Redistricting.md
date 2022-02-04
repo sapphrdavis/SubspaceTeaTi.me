@@ -6,7 +6,7 @@ categories:
     - Election Cartography
     - SFW
 
-social-preview-image: https://i.imgur.com/t3dVshV.png
+social-preview-image: https://i.imgur.com/RgOKx5I.png
 ---
 
 Redistricting cycles for the United States House of Representatives have historically been times of great change in the composition of Congress. As districts are redrawn according to law, some incumbents get drawn into more competitive districts, drawn in with another incumbent, or find their new district not right for them. This has led to cycles which result in many retirements, vacancies, and the defeat of incumbents in primaries or general elections.
@@ -14,7 +14,7 @@ Redistricting cycles for the United States House of Representatives have histori
 As the redistricting processes come to an end in many states or start up in others, I will use this article to keep track of the ways which Congress will change in the future with retirements, incumbents drawn together, vacancies, and more. As of [today’s date] here is where things stand in the new districts for 2022.
 
 {% include single-image.html
-    full='https://i.imgur.com/t3dVshV.png'
+    full='https://i.imgur.com/RgOKx5I.png'
     %}
     
 For a point of comparison, here is how the same incumbency looks on the old districts used for the 117th Congress (2021-2023).
@@ -123,9 +123,10 @@ For a point of comparison, here is how the same incumbency looks on the old dist
 5.  Illinois 16: Adam Kizinger (R - Retiring) and Darin LaHood (R).
 6.  Michigan 4: Bill Huizenga (R) and Fred Upton (R).
 7.  Michigan 11: Andy Levin (D) and Haley Stevens (D).
-8.  North Carolina 11: Kathy E. Manning (D) and Virginia Foxx (R).
-9.  Texas 34: Filemon Vela Jr. (D - Retiring) and Vicente Gonzalez (D).
-10.  West Virginia 2: David McKinley (R) and Alex Mooney (R).
+8.  New York 23: Claudia Tenney (R) and Tom Reed (R - Retiring).
+9.  North Carolina 11: Kathy E. Manning (D) and Virginia Foxx (R).
+10.  Texas 34: Filemon Vela Jr. (D - Retiring) and Vicente Gonzalez (D).
+11.  West Virginia 2: David McKinley (R) and Alex Mooney (R).
 
 
 

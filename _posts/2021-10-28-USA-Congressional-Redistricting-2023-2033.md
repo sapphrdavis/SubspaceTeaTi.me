@@ -7,7 +7,7 @@ categories:
   - Election Cartography
   - SFW
 
-social-preview-image: https://i.imgur.com/6cJ8DZh.png
+social-preview-image: https://i.imgur.com/S236bC7.png
 ---
 
 Hello, all. This is an article concerning the decennial redistricting of the United States Congressional Districts, whose members make up the House of Representatives. This process involves all 50 states in the United States going through their own process to pass new congressional district boundaries in accordance with law. This redistricting must be done due to the results of the decennial census, and so redistricting occurs one to two years after the census takes place. The current redistricting cycle is taking place in 2021 and will continue through 2022 using 2020 US Census data so the districts may be ready for the 2022 midterms and legally go into effect in 2023.
@@ -25,7 +25,7 @@ To begin with, here is a map of the previous decade’s congressional districts 
 As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for the United States House of Representatives stands. Six states (Alaska, Delaware, North Dakota, South Dakota, Vermont, and Wyoming) have at-large districts and so do not have a Congressional redistricting process. The other 44 will finish their processes by the 2022 midterm elections.
 
 {% include Neon-Jekyll-Components/Galleries/single-item-highlight.html
-    full='https://i.imgur.com/6cJ8DZh.png'
+    full='https://i.imgur.com/S236bC7.png'
     raised=true
     %}
 
@@ -101,6 +101,8 @@ As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for t
 
 **February 3, 2022**: New York Governor Kathy Hochul signs her state's new districts into law, making New York the thrity-second state to finish its redistricting, though the thirtieth to be finalized after Ohio's and Alabama's were ruled against in court. [Interactive Map of Districts](https://newyork.redistrictingandyou.org/?districtType=cd&propA=current_2012&propB=congress_latfor_20220202#%26map=6.44/43.224/-75.943) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/new-york/)
 
+**February 4, 2022**: North Carolina's supreme court strikes down North Carolina's Congressional Map, removing North Carolina's new districts and demanding the North Carolina legislature draw new maps.
 
+**February 7, 2022**: Tennessee Governor Bill Lee signs his state's new districts into law, making Tennessee the thirty-third state to finish its redistricting, though the thirtieth to be finalized after Ohio's, North Carolina's, and Alabama's were ruled against in court. [Interactive Map of Districts](https://wapp.capitol.tn.gov/Apps/fml2022/search.aspx) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/tennessee/)
 
 This article will continue to update throughout the Congressional Redistricting process until all states are finished. In the meantime, you can check out [this guide from DailyKos on the process of congressional and legislative redistricting in every state](https://docs.google.com/spreadsheets/d/e/2PACX-1vQBfMtdaAHDWfdZ-SUUvbmKyE6oXLL1Tt0fBejDC1SfZK1wY3Kkmw6UiV_AFhETopm0mvo9MoMOvZEh/pubhtml?gid=1108526047) and follow [The Redistrict Network on Twitter for updates from every state](https://twitter.com/RedistrictNet).

@@ -7,7 +7,7 @@ categories:
   - Election Cartography
   - SFW
 
-social-preview-image: https://i.imgur.com/S236bC7.png
+social-preview-image: https://i.imgur.com/9wacdQz.png
 ---
 
 Hello, all. This is an article concerning the decennial redistricting of the United States Congressional Districts, whose members make up the House of Representatives. This process involves all 50 states in the United States going through their own process to pass new congressional district boundaries in accordance with law. This redistricting must be done due to the results of the decennial census, and so redistricting occurs one to two years after the census takes place. The current redistricting cycle is taking place in 2021 and will continue through 2022 using 2020 US Census data so the districts may be ready for the 2022 midterms and legally go into effect in 2023.
@@ -25,7 +25,7 @@ To begin with, here is a map of the previous decade’s congressional districts 
 As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for the United States House of Representatives stands. Six states (Alaska, Delaware, North Dakota, South Dakota, Vermont, and Wyoming) have at-large districts and so do not have a Congressional redistricting process. The other 44 will finish their processes by the 2022 midterm elections.
 
 {% include Neon-Jekyll-Components/Galleries/single-item-highlight.html
-    full='https://i.imgur.com/S236bC7.png'
+    full='https://i.imgur.com/9wacdQz.png'
     raised=true
     %}
 
@@ -104,5 +104,14 @@ As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for t
 **February 4, 2022**: North Carolina's supreme court strikes down North Carolina's Congressional Map, removing North Carolina's new districts and demanding the North Carolina legislature draw new maps.
 
 **February 7, 2022**: Tennessee Governor Bill Lee signs his state's new districts into law, making Tennessee the thirty-third state to finish its redistricting, though the thirtieth to be finalized after Ohio's, North Carolina's, and Alabama's were ruled against in court. [Interactive Map of Districts](https://wapp.capitol.tn.gov/Apps/fml2022/search.aspx) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/tennessee/)
+
+**February 7, 2022**: The Supreme Court of the United States reverses the lower court decision to strike down Alabama's Congressional Map, restoring the Republican-passed map.
+
+**February 8, 2022**: The Washington legislature approves minor changes made to the redistricting commission's plan with a 2/3 vote and thus making them law, making Washington the thirty-fourth state to finish its redistricting, though the thirty-second to be finalized after Ohio's and North Carolina's were ruled against in court. [Interactive Map of Districts](https://leg-tech.maps.arcgis.com/apps/dashboards/a0101d675f8e403298da6546c7c720a3) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/washington/)
+
+**February 9, 2022**: The Kansas legislature overrides Governor Laura Kelly's veto, making Kansas the thirty-fifth state to finish its redistricting, though the thirty-third to be finalized after Ohio's and North Carolina's were ruled against in court. [Detailed PDF of Districts](http://www.kslegislature.org/li/b2021_22/measures/ds_maps/map_b_adastra2_2787.pdf) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/kansas/)
+
+**February 10, 2022**: The Connecticut Supreme Court approves the special master's congressional plan, making Connecticut the thirty-sixth state to finish its redistricting, though the thirty-fourth to be finalized after Ohio's and North Carolina's were ruled against in court. [Detailed Town Map of Districts](https://i.imgur.com/l6llrpL.png) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/connecticut/)
+
 
 This article will continue to update throughout the Congressional Redistricting process until all states are finished. In the meantime, you can check out [this guide from DailyKos on the process of congressional and legislative redistricting in every state](https://docs.google.com/spreadsheets/d/e/2PACX-1vQBfMtdaAHDWfdZ-SUUvbmKyE6oXLL1Tt0fBejDC1SfZK1wY3Kkmw6UiV_AFhETopm0mvo9MoMOvZEh/pubhtml?gid=1108526047) and follow [The Redistrict Network on Twitter for updates from every state](https://twitter.com/RedistrictNet).

@@ -7,7 +7,7 @@ categories:
   - Election Cartography
   - SFW
 
-social-preview-image: https://i.imgur.com/9wacdQz.png
+social-preview-image: https://i.imgur.com/9gQFVRL.png
 ---
 
 Hello, all. This is an article concerning the decennial redistricting of the United States Congressional Districts, whose members make up the House of Representatives. This process involves all 50 states in the United States going through their own process to pass new congressional district boundaries in accordance with law. This redistricting must be done due to the results of the decennial census, and so redistricting occurs one to two years after the census takes place. The current redistricting cycle is taking place in 2021 and will continue through 2022 using 2020 US Census data so the districts may be ready for the 2022 midterms and legally go into effect in 2023.
@@ -25,7 +25,7 @@ To begin with, here is a map of the previous decade’s congressional districts 
 As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for the United States House of Representatives stands. Six states (Alaska, Delaware, North Dakota, South Dakota, Vermont, and Wyoming) have at-large districts and so do not have a Congressional redistricting process. The other 44 will finish their processes by the 2022 midterm elections.
 
 {% include Neon-Jekyll-Components/Galleries/single-item-highlight.html
-    full='https://i.imgur.com/9wacdQz.png'
+    full='https://i.imgur.com/9gQFVRL.png'
     raised=true
     %}
 
@@ -112,6 +112,10 @@ As of {{ page.date-edit | date: "%B %e, %Y"}}, here is where redistricting for t
 **February 9, 2022**: The Kansas legislature overrides Governor Laura Kelly's veto, making Kansas the thirty-fifth state to finish its redistricting, though the thirty-third to be finalized after Ohio's and North Carolina's were ruled against in court. [Detailed PDF of Districts](http://www.kslegislature.org/li/b2021_22/measures/ds_maps/map_b_adastra2_2787.pdf) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/kansas/)
 
 **February 10, 2022**: The Connecticut Supreme Court approves the special master's congressional plan, making Connecticut the thirty-sixth state to finish its redistricting, though the thirty-fourth to be finalized after Ohio's and North Carolina's were ruled against in court. [Detailed Town Map of Districts](https://i.imgur.com/l6llrpL.png) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/connecticut/)
+
+**February 15, 2022**: The Wattson Redistricting Panel passes its final redistricting plans for Minnesota, making Minnesota the thirty-seventh state to finish its redistricting, though the thirty-fifth to be finalized after Ohio's and North Carolina's were ruled against in court. [Detailed PDF of Districts](https://www.mncourts.gov/mncourtsgov/media/High-Profile-Cases/A21-0243%202021%20Redistricting/Appendix-A-Congressional-Maps.pdf) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/minnesota/)
+
+**February 18, 2022**: Rhode Island Governor Daniel McKee signs his state's new districts into law, making Rhode Island the thirty-eighth state to finish its redistricting, though the thirty-sixth to be finalized after Ohio's and North Carolina's were ruled against in court. [Interactive Map of Districts](https://app.mydistricting.com/legdistricting/comments/plan/111/25) \| [District Partisanship (via FiveThirtyEight)](https://projects.fivethirtyeight.com/redistricting-2022-maps/rhode-island/)
 
 
 This article will continue to update throughout the Congressional Redistricting process until all states are finished. In the meantime, you can check out [this guide from DailyKos on the process of congressional and legislative redistricting in every state](https://docs.google.com/spreadsheets/d/e/2PACX-1vQBfMtdaAHDWfdZ-SUUvbmKyE6oXLL1Tt0fBejDC1SfZK1wY3Kkmw6UiV_AFhETopm0mvo9MoMOvZEh/pubhtml?gid=1108526047) and follow [The Redistrict Network on Twitter for updates from every state](https://twitter.com/RedistrictNet).

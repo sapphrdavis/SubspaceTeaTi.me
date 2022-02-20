@@ -6,7 +6,7 @@ categories:
     - Election Cartography
     - SFW
 
-social-preview-image: https://i.imgur.com/pU2UFpG.png
+social-preview-image: https://i.imgur.com/CmASJCk.png
 ---
 
 Redistricting cycles for the United States House of Representatives have historically been times of great change in the composition of Congress. As districts are redrawn according to law, some incumbents get drawn into more competitive districts, drawn in with another incumbent, or find their new district not right for them. This has led to cycles which result in many retirements, vacancies, and the defeat of incumbents in primaries or general elections.
@@ -14,13 +14,13 @@ Redistricting cycles for the United States House of Representatives have histori
 As the redistricting processes come to an end in many states or start up in others, I will use this article to keep track of the ways which Congress will change in the future with retirements, incumbents drawn together, vacancies, and more. As of [today’s date] here is where things stand in the new districts for 2022.
 
 {% include single-image.html
-    full='https://i.imgur.com/pU2UFpG.png'
+    full='https://i.imgur.com/CmASJCk.png'
     %}
     
 For a point of comparison, here is how the same incumbency looks on the old districts used for the 117th Congress (2021-2023).
 
 {% include single-image.html
-    full='https://i.imgur.com/QmbcMWD.png'
+    full='https://i.imgur.com/FB643mY.png'
     %}
 
 
@@ -64,18 +64,19 @@ For a point of comparison, here is how the same incumbency looks on the old dist
 15.  Michigan 14: Brenda Lawrence is retiring.
 16.  New Jersey 8: Albio Sires is retiring.
 17.  New York 3: Thomas Suozzi is retiring to run for governor of New York.
-18.  North Carolina 1: G. K. Butterfield is retiring.
-19.  North Carolina 4: David Price is retiring.
-20.  Ohio 13: Tim Ryan is retiring to run for U.S. senator.
-21.  Oregon 4: Peter DeFazio is retiring.
-22.  Pennsylvania 17: Conor Lamb is retiring to run for U.S. senator.
-23.  Pennsylvania 18: Mike Doyle is retiring.
-24.  Rhode Island 2: Jim Langevin is retiring.
-25.  Tennessee 5: Jim Cooper is retiring.
-26.  Texas 30: Eddie Bernice Johnson is retiring.
-27.  Texas 34: Filemon Vela Jr. is retiring.
-28.  Vermont At-Large: Peter Welch is retiring to run for U.S. senator.
-29.  Wisconsin 3: Ron Kind is retiring.
+18.  New York 4: Kathleen Rice is retiring.
+19.  North Carolina 1: G. K. Butterfield is retiring.
+20.  North Carolina 4: David Price is retiring.
+21.  Ohio 13: Tim Ryan is retiring to run for U.S. senator.
+22.  Oregon 4: Peter DeFazio is retiring.
+23.  Pennsylvania 17: Conor Lamb is retiring to run for U.S. senator.
+24.  Pennsylvania 18: Mike Doyle is retiring.
+25.  Rhode Island 2: Jim Langevin is retiring.
+26.  Tennessee 5: Jim Cooper is retiring.
+27.  Texas 30: Eddie Bernice Johnson is retiring.
+28.  Texas 34: Filemon Vela Jr. is retiring.
+29.  Vermont At-Large: Peter Welch is retiring to run for U.S. senator.
+30.  Wisconsin 3: Ron Kind is retiring.
 
 
 ### Republican Retirements ###

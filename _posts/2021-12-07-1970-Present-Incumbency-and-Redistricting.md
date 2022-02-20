@@ -97,6 +97,7 @@ For a point of comparison, here is how the same incumbency looks on the old dist
 
 ### Vacancies ###
 1.  California 22: Devin Nunes resigned on December 31, 2021, and a special election will be held on June 7, 2022.
+2.  Minnesota 1: Jim Hagedorn died of kidney cancer on February 17, 2022, and a primary for the special election is expected to be held on May 24, 2022. 
 
 
 
